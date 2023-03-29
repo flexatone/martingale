@@ -1,0 +1,23 @@
+#N canvas 371 457 657 393 10;
+#X obj 57 225 print xy1;
+#X obj 139 227 print xy2;
+#X obj 342 229 print buttons9/10;
+#X obj 139 191 mgPak2 f f;
+#X obj 57 191 mgPak2 f f;
+#X text 461 233 buttons 9/10 out here;
+#X obj 131 140 mgHwDualAnalogJoystick;
+#X text 161 105 note: turn off key repeat for keyboard dpad simulation
+;
+#X text 67 260 buttons should be lists of two values: state \, id \;
+button 7 on should be given as 1 7 \; button 7 off should be 0 7 the
+dpad is represented as button 11 \, with states 0 \, 1 \, 2 \, 3 \,
+4 \, where states zero is the off position;
+#X obj 207 228 print buttonsMain;
+#X connect 3 0 1 0;
+#X connect 4 0 0 0;
+#X connect 6 0 4 0;
+#X connect 6 1 4 1;
+#X connect 6 2 3 0;
+#X connect 6 3 3 1;
+#X connect 6 4 9 0;
+#X connect 6 5 2 0;

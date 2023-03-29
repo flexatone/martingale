@@ -1,0 +1,21 @@
+#N canvas 189 352 944 299 10;
+#X floatatom 68 176 5 0 0 0 - - -;
+#X floatatom 127 174 5 0 0 0 - - -;
+#X floatatom 178 177 5 0 0 0 - - -;
+#X floatatom 226 178 5 0 0 0 - - -;
+#X obj 280 174 print buttons;
+#X obj 377 174 print buttons9/10;
+#X obj 98 98 mgHwDualAnalogVirtual;
+#X text 409 84 keys a s d f are 1 2 3 4;
+#X text 410 64 keys q w e r are 5 6 7 8;
+#X text 385 126 buttons 9 and 10 are o/p;
+#X text 497 170 note: for this to work \, key repeat must be turned
+off as a system preference;
+#X text 396 104 space bar toggles x/y from mouse to simulate xy1 and
+xy2;
+#X connect 6 0 0 0;
+#X connect 6 1 1 0;
+#X connect 6 2 2 0;
+#X connect 6 3 3 0;
+#X connect 6 4 4 0;
+#X connect 6 5 5 0;

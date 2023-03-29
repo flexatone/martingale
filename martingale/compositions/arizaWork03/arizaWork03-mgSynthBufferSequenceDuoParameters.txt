@@ -1,0 +1,36 @@
+# basic ;
+
+# two bells / bright and quick;
+ 
+1 patternFileA arizaWork03-mgDataPulsePatterns16.txt patternA1 1 patternA2 2 patternA3 3 patternA4 4 patternA5 1 patternA6 2 patternA7 3 patternA8 4 patternFileB arizaWork03-mgDataPitchPatterns16.txt patternB1 5 patternB2 6 patternB3 7 patternB4 8 patternB5 5 patternB6 6 patternB7 7 patternB8 8 filePathA arizaWork03-mgSynthBufferParameters.txt presetA 8 filePathB arizaWork03-mgSynthBufferParameters.txt presetB 7 pulseModA 1 pulseModB 3; 
+
+# two bells / lower moving slowly / upper bright and quick;
+ 
+2 patternFileA arizaWork03-mgDataPulsePatterns16.txt patternA1 1 patternA2 2 patternA3 3 patternA4 4 patternA5 1 patternA6 2 patternA7 3 patternA8 4 patternFileB arizaWork03-mgDataPitchPatterns16.txt patternB1 5 patternB2 6 patternB3 7 patternB4 8 patternB5 5 patternB6 6 patternB7 7 patternB8 8 filePathA arizaWork03-mgSynthBufferParameters.txt presetA 9 filePathB arizaWork03-mgSynthBufferParameters.txt presetB 10 pulseModA 1 pulseModB 6; 
+
+# two bells / upper has strong low attack / upper inharmonic and quick;
+# excellent for crescendos that end in silence ; 
+
+3 patternFileA arizaWork03-mgDataPulsePatterns16.txt patternA1 1 patternA2 2 patternA3 3 patternA4 4 patternA5 1 patternA6 2 patternA7 3 patternA8 4 patternFileB arizaWork03-mgDataPitchPatterns16.txt patternB1 5 patternB2 6 patternB3 7 patternB4 8 patternB5 5 patternB6 6 patternB7 7 patternB8 8 filePathA arizaWork03-mgSynthBufferParameters.txt presetA 11 filePathB arizaWork03-mgSynthBufferParameters.txt presetB 13 pulseModA 1 pulseModB 2; 
+
+
+
+# muted hits; 
+
+4 patternFileA arizaWork03-mgDataPulsePatterns16.txt patternA1 1 patternA2 2 patternA3 3 patternA4 4 patternA5 1 patternA6 2 patternA7 3 patternA8 4 patternFileB arizaWork03-mgDataPitchPatterns16.txt patternB1 5 patternB2 6 patternB3 7 patternB4 8 patternB5 5 patternB6 6 patternB7 7 patternB8 8 filePathA arizaWork03-mgSynthBufferParameters.txt presetA 15 filePathB arizaWork03-mgSynthBufferParameters.txt presetB 16 pulseModA 1 pulseModB 1; 
+
+
+# muted hits; 
+
+5 patternFileA arizaWork03-mgDataPulsePatterns16.txt patternA1 1 patternA2 2 patternA3 3 patternA4 4 patternA5 1 patternA6 2 patternA7 3 patternA8 4 patternFileB arizaWork03-mgDataPitchPatterns16.txt patternB1 5 patternB2 6 patternB3 7 patternB4 8 patternB5 5 patternB6 6 patternB7 7 patternB8 8 filePathA arizaWork03-mgSynthBufferParameters.txt presetA 17 filePathB arizaWork03-mgSynthBufferParameters.txt presetB 18 pulseModA 1 pulseModB 3; 
+
+
+# muted hits; 
+
+6 patternFileA arizaWork03-mgDataPulsePatterns16.txt patternA1 1 patternA2 2 patternA3 3 patternA4 4 patternA5 1 patternA6 2 patternA7 3 patternA8 4 patternFileB arizaWork03-mgDataPitchPatterns16.txt patternB1 5 patternB2 6 patternB3 7 patternB4 8 patternB5 5 patternB6 6 patternB7 7 patternB8 8 filePathA arizaWork03-mgSynthBufferParameters.txt presetA 20 filePathB arizaWork03-mgSynthBufferParameters.txt presetB 19 pulseModA 1 pulseModB 2; 
+
+
+# muted hits; 
+
+7 patternFileA arizaWork03-mgDataPulsePatterns16.txt patternA1 1 patternA2 2 patternA3 3 patternA4 4 patternA5 1 patternA6 2 patternA7 3 patternA8 4 patternFileB arizaWork03-mgDataPitchPatterns16.txt patternB1 5 patternB2 6 patternB3 7 patternB4 8 patternB5 5 patternB6 6 patternB7 7 patternB8 8 filePathA arizaWork03-mgSynthBufferParameters.txt presetA 21 filePathB arizaWork03-mgSynthBufferParameters.txt presetB 22 pulseModA 1 pulseModB 2; 
+

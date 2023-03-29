@@ -1,0 +1,16 @@
+#N canvas 1224 22 450 300 10;
+#X obj 94 136 click~;
+#X obj 129 266 dac~;
+#X msg 91 98 bang;
+#X msg 181 107 1;
+#X msg 235 108 0.5;
+#X msg 204 73 500;
+#X obj 132 184 mgProcDelayFeedback;
+#X obj 251 212 mgProcDelayFeedback;
+#X connect 0 0 6 0;
+#X connect 2 0 0 0;
+#X connect 3 0 6 1;
+#X connect 4 0 6 3;
+#X connect 5 0 6 2;
+#X connect 6 0 1 0;
+#X connect 6 0 1 1;

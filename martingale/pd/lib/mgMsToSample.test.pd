@@ -1,0 +1,12 @@
+#N canvas 469 369 450 300 10;
+#X obj 145 126 mgMsToSample;
+#X floatatom 144 68 5 0 0 0 - - -;
+#X floatatom 130 189 10 0 0 0 - - -;
+#X msg 253 90 1000;
+#X msg 203 58 500;
+#X msg 78 88 2000;
+#X connect 0 0 2 0;
+#X connect 1 0 0 0;
+#X connect 3 0 0 0;
+#X connect 4 0 0 0;
+#X connect 5 0 0 0;

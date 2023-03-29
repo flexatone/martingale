@@ -1,0 +1,8 @@
+#N canvas 131 618 450 300 10;
+#X obj 135 142 outlet;
+#X obj 134 34 inlet;
+#X obj 133 87 pow 4;
+#X text 75 180 maps a unit interval level to unit interval valuse close
+to amp / note that this works better than [* 100] to [dbtorms];
+#X connect 1 0 2 0;
+#X connect 2 0 0 0;

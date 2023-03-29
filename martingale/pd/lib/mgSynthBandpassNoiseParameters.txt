@@ -1,0 +1,9 @@
+# note that as large amp value is needed for pitch scaling;  
+
+1 pitch1 60 pitch2 62 pitch3 64 pitch4 65 pitch5 67 pitch6 69 pitch7 71 pitch8 72 amp 50 bpResonance 0.25 attack 20 decay 20 sustain .8 release 200 lpfMin 70 lpfMax 120 lpfResonanceMin 0.5 lpfResonanceMax 3.5;
+
+2 pitch1 40 pitch2 42 pitch3 44 pitch4 45 pitch5 47 pitch6 49 pitch7 51 pitch8 52 amp 70 bpResonance 0.5 attack 2000 decay 200 sustain .7 release 1500 lpfMin 70 lpfMax 120 lpfResonanceMin 0.5 lpfResonanceMax 3.5;
+
+
+
+

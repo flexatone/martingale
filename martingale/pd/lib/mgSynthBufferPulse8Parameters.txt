@@ -1,0 +1,33 @@
+# preset numbers are values for presets ;
+# the preset numbers are those defined in the file path ; 
+# order here is the order loaded ;
+
+1 filePath mgSynthBufferParameters.txt  preset1 1 preset2 6 preset3 7 preset4 4 preset5 5 preset6 8 preset7 10 preset8 12  count1 1  count2 2  count3 3  count4 1  count5 2  count6 3  count7 1  count8 2 duration 200 ;
+
+
+# slowed down and ambient ; 
+2 filePath mgSynthBufferParameters.txt  preset1 18 preset2 19 preset3 20 preset4 21 preset5 11 preset6 13 preset7 14 preset8 15  count1 1  count2 2  count3 3  count4 1  count5 2  count6 3  count7 1  count8 2 duration 200;
+
+# drum kits;
+
+# sk1 kit;
+
+3 filePath mgSynthBufferParameters.txt  preset1 22 preset2 25 preset3 26 preset4 28 preset5 23 preset6 24 preset7 27 preset8 29   count1 8  count2 6  count3 5  count4 4  count5 3  count6 2  count7 1  count8 1 duration 200;
+
+# lm1 a kit;
+
+4 filePath mgSynthBufferParameters.txt  preset1 38 preset2 39 preset3 40 preset4 35 preset5 36 preset6 37 preset7 30 preset8 32    count1 8  count2 6  count3 5  count4 4  count5 3  count6 2  count7 1  count8 1 duration 200;
+
+# lm1 b kit;
+
+5 filePath mgSynthBufferParameters.txt  preset1 38 preset2 39 preset3 33 preset4 34 preset5 36 preset6 37 preset7 41 preset8 42    count1 8  count2 6  count3 5  count4 4  count5 3  count6 2  count7 1  count8 1 duration 200;
+
+# acoustic drum kit;
+
+6 filePath mgSynthBufferParameters.txt  preset1 43 preset2 48 preset3 51 preset4 52 preset5 44 preset6 46 preset7 45 preset8 49   count1 8  count2 6  count3 5  count4 4  count5 3  count6 2  count7 1  count8 1 duration 200 ;
+
+
+
+
+
+

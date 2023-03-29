@@ -1,0 +1,32 @@
+#N canvas 405 431 500 342 10;
+#X obj 123 34 notein;
+#X obj 166 129 * 0.00787402;
+#X obj 121 233 outlet;
+#X text 248 128 scale amp w/n unit interval;
+#X obj 121 195 pack f f;
+#X obj 200 232 outlet;
+#X obj 139 62 sel 0;
+#X text 187 37 outputs pitch \, vel \, midi ch;
+#X obj 101 140 gate;
+#X obj 139 89 t b b;
+#X msg 28 140 1;
+#X msg 62 140 0;
+#X obj 181 90 t f b;
+#X obj 166 157 mgVolToAmp;
+#X text 116 268 want to not send a noteoff if we have already gone
+on to a new note // need to count note ons // and then only report
+last note off;
+#X connect 0 0 8 1;
+#X connect 0 1 6 0;
+#X connect 1 0 13 0;
+#X connect 4 0 2 0;
+#X connect 6 0 9 0;
+#X connect 6 1 12 0;
+#X connect 8 0 4 0;
+#X connect 9 0 5 0;
+#X connect 9 1 11 0;
+#X connect 10 0 8 0;
+#X connect 11 0 8 0;
+#X connect 12 0 1 0;
+#X connect 12 1 10 0;
+#X connect 13 0 4 1;

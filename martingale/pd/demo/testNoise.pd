@@ -1,0 +1,17 @@
+#N canvas 176 343 450 300 10;
+#X obj 70 111 noise~;
+#X obj 71 150 *~;
+#X obj 70 211 dac~;
+#X obj 72 179 *~ 0.2;
+#X msg 293 90 \; pd dsp 1;
+#X msg 293 130 \; pd dsp 0;
+#X obj 123 150 line~;
+#X msg 181 92 1 1000;
+#X msg 127 92 0 1000;
+#X connect 0 0 1 0;
+#X connect 1 0 3 0;
+#X connect 3 0 2 0;
+#X connect 3 0 2 1;
+#X connect 6 0 1 1;
+#X connect 7 0 6 0;
+#X connect 8 0 6 0;

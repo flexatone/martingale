@@ -1,0 +1,22 @@
+#N canvas 559 44 810 584 10;
+#X floatatom 328 70 5 0 0 0 - - -;
+#X obj 365 177 dac~;
+#X floatatom 388 77 5 0 0 0 - - -;
+#X floatatom 436 85 5 0 0 0 - - -;
+#X obj 326 103 mtof;
+#X obj 365 130 mgOscWp 2300 350;
+#X obj 679 290 loadbang;
+#X obj 45 314 mgUiSignalDisplay;
+#X msg 678 338 \; pd dsp 1;
+#X msg 678 376 \; pd dsp 0;
+#X obj 658 290 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+1;
+#X connect 0 0 4 0;
+#X connect 2 0 5 1;
+#X connect 3 0 5 2;
+#X connect 4 0 5 0;
+#X connect 5 0 1 0;
+#X connect 5 0 1 1;
+#X connect 5 0 7 0;
+#X connect 6 0 10 0;
+#X connect 10 0 7 1;

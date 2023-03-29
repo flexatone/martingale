@@ -1,0 +1,16 @@
+# basic ;
+
+
+1 bpm 120 length 16 pulse1 1 pulse2 0 pulse3 1 pulse4 0 pulse5 .1 pulse6 .2 pulse7 1 pulse8 0 pulse9 1 pulse10 0 pulse11 .8 pulse12 0 pulse13 .2 pulse14 .5 pulse15 .7 pulse16 .8;
+
+
+2 bpm 120 length 16 pulse1 1 pulse2 .2 pulse3 .2 pulse4 1 pulse5 .2 pulse6 .2 pulse7 1 pulse8 .2 pulse9 .2 pulse10 1 pulse11 .2 pulse12 .2 pulse13 1 pulse14 .2 pulse15 1 pulse16 .2;
+
+# increase and decrease wave;
+
+3 bpm 120 length 16 pulse1 .1 pulse2 .2 pulse3 .3 pulse4 .4 pulse5 .5 pulse6 .6 pulse7 .8 pulse8 .9 pulse9 1 pulse10 .1 pulse11 .2 pulse12 .8 pulse13 .6 pulse14 .5 pulse15 .3 pulse16 .1;
+
+
+4 bpm 120 length 16 pulse1 .1 pulse2 .3 pulse3 .5 pulse4 .7 pulse5 .9 pulse6 .6 pulse7 .3 pulse8 .1 pulse9 .2 pulse10 .3 pulse11 .5 pulse12 .7 pulse13 1 pulse14 .5 pulse15 .3 pulse16 .1;
+
+

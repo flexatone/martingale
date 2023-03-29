@@ -1,0 +1,7 @@
+#N canvas 1170 405 492 315 10;
+#X obj 125 189 dac~;
+#X msg 357 41 \; pd dsp 1;
+#X msg 357 78 \; pd dsp 0;
+#X obj 88 61 mgUiSfLoop;
+#X connect 3 0 0 0;
+#X connect 3 0 0 1;

@@ -1,0 +1,23 @@
+#N canvas 1027 455 450 300 10;
+#X obj 127 120 mgNonZeroMonoTrigger2x4;
+#X msg 231 29 1 2 3 4;
+#X msg 286 29 100 200 300 400;
+#X obj 95 81 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1
+;
+#X obj 140 85 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 183 80 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 212 78 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 296 202;
+#X obj 259 185 print b;
+#X obj 118 188 print a;
+#X connect 0 0 9 0;
+#X connect 0 1 8 0;
+#X connect 1 0 0 4;
+#X connect 2 0 0 5;
+#X connect 3 0 0 0;
+#X connect 4 0 0 1;
+#X connect 5 0 0 2;
+#X connect 6 0 0 3;

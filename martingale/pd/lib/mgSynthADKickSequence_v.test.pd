@@ -1,0 +1,37 @@
+#N canvas 622 635 871 323 10;
+#X obj 134 100 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+1;
+#X msg 334 108 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
+#X msg 343 53 0.1 0.8 0.1 0.9 0 0 1 1 0 0 1 1 0 0 1 1 0 0 0 1;
+#X obj 265 111 t l;
+#X obj 374 175 t l;
+#X obj 166 61 metro 200;
+#X obj 166 39 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+1;
+#X obj 213 254 dac~;
+#X obj 128 62 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X msg 321 82 1 1 1 1 0.3 1 0.2 1 0.2 1 0 1 0.1 0.2 0.5 0.9;
+#X msg 273 12;
+#X floatatom 221 34 5 0 0 0 - - -;
+#X text 594 205 envel parameters include duration;
+#X msg 463 203 20 10 0.6 10 600;
+#X msg 462 226 20 10 1 10 120;
+#X msg 283 322;
+#X obj 214 180 mgSynthADKickSequence_v;
+#X obj 607 137 mgTableWaveSaw;
+#X obj 216 212 *~ 0.6;
+#X text 609 116 need table for low fq tone;
+#X connect 0 0 16 0;
+#X connect 1 0 3 0;
+#X connect 2 0 3 0;
+#X connect 3 0 16 3;
+#X connect 4 0 16 4;
+#X connect 5 0 8 0;
+#X connect 5 0 16 1;
+#X connect 6 0 5 0;
+#X connect 9 0 3 0;
+#X connect 11 0 5 1;
+#X connect 16 0 18 0;
+#X connect 18 0 7 0;
+#X connect 18 0 7 1;

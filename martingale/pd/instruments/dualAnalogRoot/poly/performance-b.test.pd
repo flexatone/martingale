@@ -1,0 +1,13 @@
+#N canvas 730 22 558 222 10;
+#X msg -185 -90 \; pd dsp 1;
+#X msg -185 -53 \; pd dsp 0;
+#X obj 67 78 dac~;
+#X msg -101 -12 bang;
+#X obj 21 -83 mgHwDualAnalogPolyUi;
+#X floatatom -65 -12 5 0 0 0 - - -;
+#X obj -43 34 performance-b;
+#X connect 3 0 6 0;
+#X connect 5 0 6 0;
+#X connect 6 0 4 0;
+#X connect 6 1 2 0;
+#X connect 6 1 2 1;

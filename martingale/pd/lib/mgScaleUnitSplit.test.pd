@@ -1,0 +1,10 @@
+#N canvas 0 22 775 317 10;
+#X floatatom 128 184 5 0 0 0 - - -;
+#X floatatom 227 183 5 0 0 0 - - -;
+#X floatatom 187 58 5 0 1 0 - - -;
+#X obj 144 111 mgScaleUnitSplit;
+#X text 276 69 0 to 0.5 in leads left outlet 0 to 1 \, 0.5 to 1 leads
+right outlet 0 to 1;
+#X connect 2 0 3 0;
+#X connect 3 0 0 0;
+#X connect 3 1 1 0;

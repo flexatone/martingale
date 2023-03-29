@@ -1,0 +1,7 @@
+# preset numbers are values for presets ;
+# the preset numbers are those defined in the file path ; 
+
+1 filePath work01-mgSynthBufferParameters.txt  preset1 1 preset2 2 preset3 3 preset4 4 preset5 5 preset6 6 preset7 7 preset8 8  ;
+
+2 filePath work01-mgSynthBufferParameters.txt  preset1 1 preset2 1 preset3 2 preset4 2 preset5 1 preset6 1 preset7 2 preset8 2   ;
+

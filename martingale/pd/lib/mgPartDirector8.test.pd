@@ -1,0 +1,36 @@
+#N canvas 505 22 852 551 10;
+#X msg 159 37 1;
+#X msg 189 38 2;
+#X obj 167 65 f;
+#X msg 91 286 Instructions: "Scene 2: Instrument 5 // mid frequencies
+with variable filters // vary density with x1 and octave with dpad
+// buttons 3 / 4 / 5 / 6";
+#X obj 196 161 print inst1;
+#X msg 182 16 3;
+#X msg 145 16 0;
+#X obj -153 202 mgHwDualAnalogPolyUi;
+#X obj 272 159 print inst6;
+#X msg 338 57 arizaWork02-partA.txt;
+#X obj 91 202 mgPartDirectorUi;
+#X obj 127 87 mgPartDirector8 ____________________;
+#X msg 323 35 arizaWork03-partA.txt;
+#X obj 348 156 print inst8;
+#X obj 177 133 print instInit;
+#X msg 92 347 Next: "Scene 3: Instrument 5 // low frequencies with
+variable filters // slow volume swells // vary density with x1 and
+octave with dpad // buttons 1 / 2 / 3 / 4";
+#X connect 0 0 2 0;
+#X connect 1 0 2 0;
+#X connect 2 0 11 1;
+#X connect 5 0 2 0;
+#X connect 6 0 2 0;
+#X connect 9 0 11 2;
+#X connect 11 1 10 0;
+#X connect 11 2 3 0;
+#X connect 11 3 15 0;
+#X connect 11 4 10 1;
+#X connect 11 5 14 0;
+#X connect 11 6 4 0;
+#X connect 11 11 8 0;
+#X connect 11 13 13 0;
+#X connect 12 0 11 2;

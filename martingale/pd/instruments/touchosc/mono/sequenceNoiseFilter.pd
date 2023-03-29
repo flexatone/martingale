@@ -1,0 +1,33 @@
+#N canvas 670 552 802 399 10;
+#X obj 127 66 OSCroute /1 /2 /3 /4;
+#X obj 126 42 dumpOSC 8000;
+#X obj 127 232 dac~;
+#X obj 273 67 print raw;
+#X obj 65 125 OSCroute /xy1 /xy2 /fader1 /multifader1 /multifader2
+;
+#X obj 8 152 metro 80;
+#X obj 8 131 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1
+;
+#X obj 423 126 OSCroute /xy3 /xy4 /fader2 /multifader3 /multifader4
+;
+#X obj 105 183 sequenceNoiseFilter_v;
+#X obj 428 179 sequenceNoiseFilter_v;
+#X connect 0 0 4 0;
+#X connect 0 0 7 0;
+#X connect 1 0 0 0;
+#X connect 1 0 3 0;
+#X connect 4 0 8 1;
+#X connect 4 1 8 2;
+#X connect 4 2 8 3;
+#X connect 4 3 8 4;
+#X connect 4 4 8 5;
+#X connect 5 0 8 0;
+#X connect 5 0 9 0;
+#X connect 6 0 5 0;
+#X connect 7 0 9 1;
+#X connect 7 1 9 2;
+#X connect 7 2 9 3;
+#X connect 7 3 9 4;
+#X connect 7 4 9 5;
+#X connect 8 0 2 0;
+#X connect 9 0 2 1;

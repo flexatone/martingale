@@ -1,0 +1,24 @@
+#N canvas 830 643 696 289 10;
+#X obj 7 100 print 1;
+#X obj 17 110 print 2;
+#X msg -36 -54 \; pd dsp 1;
+#X msg -36 -17 \; pd dsp 0;
+#X obj 186 99 mgHwDualAnalogPolyUi;
+#X msg 209 -29 refresh;
+#X msg 203 -5 bang;
+#X msg 98 -21 11;
+#X floatatom 142 -21 5 0 0 0 - - -;
+#X obj 70 148 print;
+#X obj 135 36 mgHwDualAnalogPoly2;
+#X obj 127 109 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X msg 289 -7 1;
+#X msg 320 -6 2;
+#X connect 5 0 10 0;
+#X connect 6 0 10 0;
+#X connect 7 0 10 0;
+#X connect 8 0 10 0;
+#X connect 10 0 4 0;
+#X connect 10 1 11 0;
+#X connect 12 0 10 1;
+#X connect 13 0 10 1;

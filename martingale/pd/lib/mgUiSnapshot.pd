@@ -1,0 +1,26 @@
+#N canvas 657 699 705 357 10;
+#X obj 223 162 inlet~;
+#X obj 225 202 snapshot~;
+#X obj 314 159 metro 50;
+#X obj 314 77 inlet;
+#X obj 314 108 sel 0 1;
+#X text 388 157 0 and 1 turn on and off \; otherwise values control
+speed;
+#X msg 296 132 0;
+#X msg 324 132 1;
+#X msg 111 232;
+#X floatatom 2 16 10 0 0 0 - - -;
+#X obj 373 105 loadbang;
+#X obj 226 242 outlet;
+#X connect 0 0 1 0;
+#X connect 1 0 9 0;
+#X connect 1 0 11 0;
+#X connect 2 0 1 0;
+#X connect 3 0 4 0;
+#X connect 4 0 6 0;
+#X connect 4 1 7 0;
+#X connect 4 2 2 1;
+#X connect 6 0 2 0;
+#X connect 7 0 2 0;
+#X connect 10 0 7 0;
+#X coords 0 -1 1 1 67 34 1 0 0;

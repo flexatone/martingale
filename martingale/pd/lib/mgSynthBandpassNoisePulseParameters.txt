@@ -1,0 +1,22 @@
+# note that as large amp value is needed for pitch scaling;  
+
+# duration is time for closing envelope after metro auto trigger; 
+
+1 pitch1 60 pitch2 62 pitch3 64 pitch4 65 pitch5 67 pitch6 69 pitch7 71 pitch8 72 count1 8 count2 6 count3 5 count4 4 count5 3 count6 2 count7 1 count8 1 duration 30 amp 200 bpResonance 1 attack 5 decay 5 sustain .9 release 10 lpfMin 70 lpfMax 120 lpfResonanceMin 0.5 lpfResonanceMax 3.5;
+
+# e phrygian starting below middle c;
+
+
+2 pitch1 52 pitch2 53 pitch3 55 pitch4 57 pitch5 59 pitch6 60 pitch7 62 pitch8 64 count1 8 count2 6 count3 3 count4 1 count5 2 count6 3 count7 1 count8 2 duration 30 amp 200 bpResonance 1 attack 5 decay 5 sustain .9 release 10 lpfMin 70 lpfMax 120 lpfResonanceMin 0.5 lpfResonanceMax 3.5;
+
+# hexatonic blues starting on g;
+
+
+3 pitch1 43 pitch2 46 pitch3 48 pitch4 49 pitch5 50 pitch6 53 pitch7 55 pitch8 58 count1 8 count2 6 count3 3 count4 1 count5 2 count6 3 count7 1 count8 2 duration 30 amp 200 bpResonance 1 attack 5 decay 5 sustain .9 release 10 lpfMin 70 lpfMax 120 lpfResonanceMin 0.5 lpfResonanceMax 3.5;
+
+# hexatonic blues starting on a, octave higher;
+
+4 pitch1 69 pitch2 72 pitch3 74 pitch4 75 pitch5 76 pitch6 79 pitch7 81 pitch8 84 count1 8 count2 6 count3 3 count4 1 count5 2 count6 3 count7 1 count8 2 duration 30 amp 200 bpResonance 1 attack 5 decay 5 sustain .9 release 10 lpfMin 70 lpfMax 120 lpfResonanceMin 0.5 lpfResonanceMax 3.5;
+
+
+

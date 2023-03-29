@@ -1,0 +1,8 @@
+#N canvas 770 353 450 300 10;
+#X floatatom 213 205 5 0 0 0 - - -;
+#X floatatom 195 78 5 0 0 0 - - -;
+#X obj 204 145 mgScaleMinMax 20 30;
+#X text 66 31 scales unit interval value between a min and max value
+;
+#X connect 1 0 2 0;
+#X connect 2 0 0 0;

@@ -1,0 +1,38 @@
+#N canvas 182 395 819 427 10;
+#X obj 218 210 counter 0 1;
+#X obj 218 236 sel 1;
+#X obj 185 152 change;
+#X obj 231 153 change;
+#X msg 279 152 0;
+#X obj 311 116 t f b b;
+#X obj 311 346 outlet;
+#X obj 186 30 inlet numbers;
+#X msg 185 123 1;
+#X msg 231 124 2;
+#X obj 199 179 sel 1 2;
+#X text 406 117 build a list from a dynamic stream of numbers / list
+building and output is triggered when two sentinal values are found.
+the sentinal values are provided as arguments // this is useful for
+parsing data in a data stream from a serial interface;
+#X text 207 63 sentinals must be different / given as args;
+#X obj 185 91 sel \$1 \$2;
+#X text 70 234 bang to return list;
+#X obj 311 297 mgListAccumulateFloat 24;
+#X connect 0 0 1 0;
+#X connect 1 0 15 0;
+#X connect 2 0 10 0;
+#X connect 3 0 10 0;
+#X connect 4 0 3 0;
+#X connect 4 0 2 0;
+#X connect 5 0 15 0;
+#X connect 5 1 0 2;
+#X connect 5 2 4 0;
+#X connect 7 0 13 0;
+#X connect 8 0 2 0;
+#X connect 9 0 3 0;
+#X connect 10 0 0 0;
+#X connect 10 1 0 0;
+#X connect 13 0 8 0;
+#X connect 13 1 9 0;
+#X connect 13 2 5 0;
+#X connect 15 0 6 0;

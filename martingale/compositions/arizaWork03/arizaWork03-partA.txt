@@ -1,0 +1,86 @@
+# each preset here defines a scene // each scene defines a number of presets for various instruments  ; 
+# NOTE: cannot use commas anywhere! the message will end at that point ;
+# sceneDurationUnit can be seconds beat beatGroup;
+# tempoSource can be local / network / none ; 
+
+0 quantize 0 tempoSource local tempoBpm 300 pulseCount 8 sceneDurationUnit second sceneDuration 20 filePath1 arizaWork03-mgSynthNoiseFilterParameters.txt  preset1 2 filePath2 arizaWork03-mgSynthBuffer8Parameters.txt   preset2 1 filePath3 arizaWork03-mgSynthStochWaveParameters.txt preset3 3 filePath4 arizaWork03-mgSynthGranularSampleParameters.txt preset4 1 filePath5 arizaWork03-mgSynthSawSequenceDuoParameters.txt preset5 1 filePath6 arizaWork03-mgSynthPafSequenceDuoParameters.txt preset6 1 filePath7 arizaWork03-mgSynthBufferSequenceDuoParameters.txt preset7 1 filePath8 arizaWork03-mgSynthBufferSequenceDuoParameters.txt preset8 1 initInstrument 3;
+
+comment "Scene 0: Pre-load"; 
+
+
+1 quantize 0 tempoSource local tempoBpm 300 pulseCount 8 sceneDurationUnit second sceneDuration 25 filePath1 arizaWork03-mgSynthNoiseFilterParameters.txt  preset1 2 filePath2 arizaWork03-mgSynthBuffer8Parameters.txt   preset2 1 filePath3 arizaWork03-mgSynthStochWaveParameters.txt preset3 3 filePath4 arizaWork03-mgSynthGranularSampleParameters.txt preset4 1 filePath5 arizaWork03-mgSynthSawSequenceDuoParameters.txt preset5 1 filePath6 arizaWork03-mgSynthPafSequenceDuoParameters.txt preset6 1 filePath7 arizaWork03-mgSynthBufferSequenceDuoParameters.txt preset7 1 filePath8 arizaWork03-mgSynthBufferSequenceDuoParameters.txt preset8 1 initInstrument 3;
+
+comment "Scene 1: Tacit"; 
+
+
+2 quantize 0 tempoSource local tempoBpm 300 pulseCount 8 sceneDurationUnit second sceneDuration 10 filePath1 arizaWork03-mgSynthNoiseFilterParameters.txt  preset1 2 filePath2 arizaWork03-mgSynthBuffer8Parameters.txt   preset2 2 filePath3 arizaWork03-mgSynthStochWaveParameters.txt preset3 4 filePath4 arizaWork03-mgSynthGranularSampleParameters.txt preset4 1 filePath5 arizaWork03-mgSynthSawSequenceDuoParameters.txt preset5 1 filePath6 arizaWork03-mgSynthPafSequenceDuoParameters.txt preset6 1 filePath7 arizaWork03-mgSynthBufferSequenceDuoParameters.txt preset7 1 filePath8 arizaWork03-mgSynthBufferSequenceDuoParameters.txt preset8 1 initInstrument 3;
+
+comment "Scene 2: Instrument 3 // Sustained noise texture with two buttons 1-4 / 5-8 // fading filter with x1 and modulating x2 and y2"; 
+
+
+3 quantize 0 tempoSource local tempoBpm 200 pulseCount 8 sceneDurationUnit second sceneDuration 20 filePath1 arizaWork03-mgSynthNoiseFilterParameters.txt  preset1 2 filePath2 arizaWork03-mgSynthBuffer8Parameters.txt   preset2 1 filePath3 arizaWork03-mgSynthStochWaveParameters.txt preset3 3 filePath4 arizaWork03-mgSynthGranularSampleParameters.txt preset4 1 filePath5 arizaWork03-mgSynthSawSequenceDuoParameters.txt preset5 1 filePath6 arizaWork03-mgSynthPafSequenceDuoParameters.txt preset6 1 filePath7 arizaWork03-mgSynthBufferSequenceDuoParameters.txt preset7 1 filePath8 arizaWork03-mgSynthBufferSequenceDuoParameters.txt preset8 1 initInstrument 7;
+
+comment "Scene 3: Instrument 7 // one button 1-4 and 5-8 / vary buttons"; 
+
+
+4 quantize 0 tempoSource local tempoBpm 300 pulseCount 8 sceneDurationUnit second sceneDuration 20 filePath1 arizaWork03-mgSynthNoiseFilterParameters.txt  preset1 2 filePath2 arizaWork03-mgSynthBuffer8Parameters.txt   preset2 2 filePath3 arizaWork03-mgSynthStochWaveParameters.txt preset3 5 filePath4 arizaWork03-mgSynthGranularSampleParameters.txt preset4 1 filePath5 arizaWork03-mgSynthSawSequenceDuoParameters.txt preset5 1 filePath6 arizaWork03-mgSynthPafSequenceDuoParameters.txt preset6 1 filePath7 arizaWork03-mgSynthBufferSequenceDuoParameters.txt preset7 1 filePath8 arizaWork03-mgSynthBufferSequenceDuoParameters.txt preset8 1 initInstrument 3;
+
+comment "Scene 4: Instrument 3 // Sustained noise texture with two buttons 1-4 / 5-8 // fading filter with x1 and modulating x2 and y2"; 
+
+
+5 quantize 0 tempoSource local tempoBpm 300 pulseCount 8 sceneDurationUnit second sceneDuration 30 filePath1 arizaWork03-mgSynthNoiseFilterParameters.txt  preset1 2 filePath2 arizaWork03-mgSynthBuffer8Parameters.txt   preset2 1 filePath3 arizaWork03-mgSynthStochWaveParameters.txt preset3 3 filePath4 arizaWork03-mgSynthGranularSampleParameters.txt preset4 1 filePath5 arizaWork03-mgSynthSawSequenceDuoParameters.txt preset5 1 filePath6 arizaWork03-mgSynthPafSequenceDuoParameters.txt preset6 1 filePath7 arizaWork03-mgSynthBufferSequenceDuoParameters.txt preset7 1 filePath8 arizaWork03-mgSynthBufferSequenceDuoParameters.txt preset8 1 initInstrument 1;
+
+comment "Scene 5: Instrument 1 // spaced fades with buttons 5-8 / descending filter sweeps with x1 and x2"; 
+
+
+6 quantize 0 tempoSource local tempoBpm 300 pulseCount 8 sceneDurationUnit second sceneDuration 30 filePath1 arizaWork03-mgSynthNoiseFilterParameters.txt  preset1 2 filePath2 arizaWork03-mgSynthBuffer8Parameters.txt   preset2 1 filePath3 arizaWork03-mgSynthStochWaveParameters.txt preset3 1 filePath4 arizaWork03-mgSynthGranularSampleParameters.txt preset4 1 filePath5 arizaWork03-mgSynthSawSequenceDuoParameters.txt preset5 1 filePath6 arizaWork03-mgSynthPafSequenceDuoParameters.txt preset6 1 filePath7 arizaWork03-mgSynthBufferSequenceDuoParameters.txt preset7 1 filePath8 arizaWork03-mgSynthBufferSequenceDuoParameters.txt preset8 1 initInstrument 3;
+
+comment "Scene 6: Instrument 3 // Noise texture with two buttons 1-4 / 5-8 // sustain for 3 to 6 beats with 1 to 4 beats of silence between // fading filter with x1 and modulating x2 and y2 // add reverb"; 
+
+
+7 quantize 0 tempoSource local tempoBpm 300 pulseCount 8 sceneDurationUnit second sceneDuration 40 filePath1 arizaWork03-mgSynthNoiseFilterParameters.txt  preset1 2 filePath2 arizaWork03-mgSynthBuffer8Parameters.txt   preset2 1 filePath3 arizaWork03-mgSynthStochWaveParameters.txt preset3 3 filePath4 arizaWork03-mgSynthGranularSampleParameters.txt preset4 1 filePath5 arizaWork03-mgSynthSawSequenceDuoParameters.txt preset5 1 filePath6 arizaWork03-mgSynthPafSequenceDuoParameters.txt preset6 1 filePath7 arizaWork03-mgSynthBufferSequenceDuoParameters.txt preset7 1 filePath8 arizaWork03-mgSynthBufferSequenceDuoParameters.txt preset8 1 initInstrument 2;
+
+comment "Scene 7: Instrument 2 // spaced gong hits every 4 or 5 beats"; 
+
+
+8 quantize 0 tempoSource local tempoBpm 300 pulseCount 8 sceneDurationUnit second sceneDuration 20 filePath1 arizaWork03-mgSynthNoiseFilterParameters.txt  preset1 2 filePath2 arizaWork03-mgSynthBuffer8Parameters.txt   preset2 1 filePath3 arizaWork03-mgSynthStochWaveParameters.txt preset3 3 filePath4 arizaWork03-mgSynthGranularSampleParameters.txt preset4 1 filePath5 arizaWork03-mgSynthSawSequenceDuoParameters.txt preset5 1 filePath6 arizaWork03-mgSynthPafSequenceDuoParameters.txt preset6 1 filePath7 arizaWork03-mgSynthBufferSequenceDuoParameters.txt preset7 1 filePath8 arizaWork03-mgSynthBufferSequenceDuoParameters.txt preset8 1 initInstrument 5;
+
+comment "Scene 8: Instrument 5 // vary button 1-4 / occasional 5-8 / sparse entry of melodic line / fade with filter and resonance with x2 / y2"; 
+
+
+9 quantize 0 tempoSource local tempoBpm 450 pulseCount 8 sceneDurationUnit second sceneDuration 30 filePath1 arizaWork03-mgSynthNoiseFilterParameters.txt preset1 2 filePath2 arizaWork03-mgSynthBuffer8Parameters.txt   preset2 1 filePath3 arizaWork03-mgSynthStochWaveParameters.txt preset3 3 filePath4 arizaWork03-mgSynthGranularSampleParameters.txt preset4 1 filePath5 arizaWork03-mgSynthSawSequenceDuoParameters.txt preset5 2 filePath6 arizaWork03-mgSynthPafSequenceDuoParameters.txt preset6 1 filePath7 arizaWork03-mgSynthBufferSequenceDuoParameters.txt preset7 1 filePath8 arizaWork03-mgSynthBufferSequenceDuoParameters.txt preset8 1 initInstrument 5;
+
+comment "Scene 9: Instrument 5 // vary button 1-4 / occasional 5-8 / sparse entry of melodic line / fade with filter and resonance with x2 / y2"; 
+
+
+10 quantize 0 tempoSource local tempoBpm 450 pulseCount 8 sceneDurationUnit second sceneDuration 20 filePath1 arizaWork03-mgSynthNoiseFilterParameters.txt  preset1 2 filePath2 arizaWork03-mgSynthBuffer8Parameters.txt   preset2 1 filePath3 arizaWork03-mgSynthStochWaveParameters.txt preset3 3 filePath4 arizaWork03-mgSynthGranularSampleParameters.txt preset4 1 filePath5 arizaWork03-mgSynthSawSequenceDuoParameters.txt preset5 3 filePath6 arizaWork03-mgSynthPafSequenceDuoParameters.txt preset6 1 filePath7 arizaWork03-mgSynthBufferSequenceDuoParameters.txt preset7 1 filePath8 arizaWork03-mgSynthBufferSequenceDuoParameters.txt preset8 1 initInstrument 5;
+
+comment "Scene 10: Instrument 5 // vary button 1-4 / occasional 5-8 / sparse entry of melodic line / fade with filter and resonance with x2 / y2 // build to dynamic peak"; 
+
+
+11 quantize 0 tempoSource local tempoBpm 600 pulseCount 8 sceneDurationUnit second sceneDuration 40 filePath1 arizaWork03-mgSynthNoiseFilterParameters.txt  preset1 2 filePath2 arizaWork03-mgSynthBuffer8Parameters.txt   preset2 1 filePath3 arizaWork03-mgSynthStochWaveParameters.txt preset3 1 filePath4 arizaWork03-mgSynthGranularSampleParameters.txt preset4 1 filePath5 arizaWork03-mgSynthSawSequenceDuoParameters.txt preset5 4 filePath6 arizaWork03-mgSynthPafSequenceDuoParameters.txt preset6 4 filePath7 arizaWork03-mgSynthBufferSequenceDuoParameters.txt preset7 1 filePath8 arizaWork03-mgSynthBufferSequenceDuoParameters.txt preset8 1 initInstrument 6;
+
+comment "Scene 11: Instrument 6 // vary button 1-4 / occasional 5-8 / sparse entry of melodic line / modulating x2 and y2 // jump to Instrument 1 buttons 5-8 / high frequency fade in and out over 6 to 8 beats"; 
+
+
+12 quantize 0 tempoSource local tempoBpm 450 pulseCount 8 sceneDurationUnit second sceneDuration 40 filePath1 arizaWork03-mgSynthNoiseFilterParameters.txt  preset1 2 filePath2 arizaWork03-mgSynthBuffer8Parameters.txt   preset2 2 filePath3 arizaWork03-mgSynthStochWaveParameters.txt preset3 3 filePath4 arizaWork03-mgSynthGranularSampleParameters.txt preset4 1 filePath5 arizaWork03-mgSynthSawSequenceDuoParameters.txt preset5 1 filePath6 arizaWork03-mgSynthPafSequenceDuoParameters.txt preset6 1 filePath7 arizaWork03-mgSynthBufferSequenceDuoParameters.txt preset7 7 filePath8 arizaWork03-mgSynthBufferSequenceDuoParameters.txt preset8 5 initInstrument 7;
+
+comment "Scene 12: Instrument 7 // vary button 1-4 and 5-8 / fade in and out over 8 to 10 beates"; 
+
+
+13 quantize 0 tempoSource local tempoBpm 600 pulseCount 8 sceneDurationUnit second sceneDuration 30 filePath1 arizaWork03-mgSynthNoiseFilterParameters.txt  preset1 2 filePath2 arizaWork03-mgSynthBuffer8Parameters.txt   preset2 1 filePath3 arizaWork03-mgSynthStochWaveParameters.txt preset3 3 filePath4 arizaWork03-mgSynthGranularSampleParameters.txt preset4 1 filePath5 arizaWork03-mgSynthSawSequenceDuoParameters.txt preset5 1 filePath6 arizaWork03-mgSynthPafSequenceDuoParameters.txt preset6 1 filePath7 arizaWork03-mgSynthBufferSequenceDuoParameters.txt preset7 4 filePath8 arizaWork03-mgSynthBufferSequenceDuoParameters.txt preset8 6 initInstrument 7;
+
+comment "Scene 13: Instrument 7 // vary button 1-4 and 5-8 / fade in and out over 6 to 8 beates"; 
+
+
+14 quantize 0 tempoSource local tempoBpm 450 pulseCount 8 sceneDurationUnit second sceneDuration 20 filePath1 arizaWork03-mgSynthNoiseFilterParameters.txt  preset1 2 filePath2 arizaWork03-mgSynthBuffer8Parameters.txt   preset2 1 filePath3 arizaWork03-mgSynthStochWaveParameters.txt preset3 7 filePath4 arizaWork03-mgSynthGranularSampleParameters.txt preset4 1 filePath5 arizaWork03-mgSynthSawSequenceDuoParameters.txt preset5 1 filePath6 arizaWork03-mgSynthPafSequenceDuoParameters.txt preset6 1 filePath7 arizaWork03-mgSynthBufferSequenceDuoParameters.txt preset7 1 filePath8 arizaWork03-mgSynthBufferSequenceDuoParameters.txt preset8 1 initInstrument 3;
+
+comment "Scene 14: Instrument 3 // sharp gestural lines / vary button 1-4 and 5-8 / vary buttons / fading filter with x1 and modulating x2 and y2 / add reverb"; 
+
+
+15 quantize 0 tempoSource local tempoBpm 300 pulseCount 8 sceneDurationUnit second sceneDuration 20 filePath1 arizaWork03-mgSynthNoiseFilterParameters.txt  preset1 2 filePath2 arizaWork03-mgSynthBuffer8Parameters.txt   preset2 1 filePath3 arizaWork03-mgSynthStochWaveParameters.txt preset3 7 filePath4 arizaWork03-mgSynthGranularSampleParameters.txt preset4 1 filePath5 arizaWork03-mgSynthSawSequenceDuoParameters.txt preset5 1 filePath6 arizaWork03-mgSynthPafSequenceDuoParameters.txt preset6 1 filePath7 arizaWork03-mgSynthBufferSequenceDuoParameters.txt preset7 1 filePath8 arizaWork03-mgSynthBufferSequenceDuoParameters.txt preset8 1 initInstrument 2;
+
+comment "Scene 15: FINE"; 
+
+
+

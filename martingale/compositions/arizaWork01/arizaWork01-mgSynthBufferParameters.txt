@@ -1,0 +1,21 @@
+# file path must not have any spaces, and be in a directory searched by martingale ;  
+
+1 filePath 13854-low-fast.aif playbackRate 2 gain 1.5 attack 20 release 20 lpfMin 80 lpfMax 120 ;
+
+2 filePath 15401-high-slow.aif playbackRate 0.25 gain 1.5 attack 20 release 20 lpfMin 80 lpfMax 119 ;
+
+3 filePath 2127-mid-slow.aif playbackRate 2 gain 1.5 attack 20 release 20 lpfMin 80 lpfMax 120 ;
+
+4 filePath 2131-mid-slow.aif playbackRate 0.25 gain 1.5 attack 20 release 20 lpfMin 80 lpfMax 120 ;
+
+5 filePath 13810-high-slow.aif playbackRate 1 gain 1.5 attack 20 release 20 lpfMin 80 lpfMax 120 ;
+
+6 filePath 13891-mid-fast.aif playbackRate 0.25 gain 1.5 attack 20 release 20 lpfMin 80 lpfMax 120 ;
+
+7 filePath 13912-mid-slow.aif playbackRate 2 gain 1.5 attack 20 release 20 lpfMin 80 lpfMax 120 ;
+
+8 filePath 15881-mid-slow.aif playbackRate 0.25 gain 1.5 attack 20 release 20 lpfMin 80 lpfMax 120  ;
+
+
+
+

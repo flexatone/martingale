@@ -1,0 +1,27 @@
+# basic ;
+
+# introductory scale;
+ 
+1 pitch1 60 pitch2 62 pitch3 64 pitch4 65 pitch5 67 pitch6 69 pitch7 70 pitch8 72 attack 20 decay 100 sustain .8 release 1000 fmRate 4 fmDepth .25 lpfMin 70 lpfMax 120 octaveShift 0; 
+
+# e phrygian starting below middle c;
+
+2 pitch1 52 pitch2 53 pitch3 55 pitch4 57 pitch5 59 pitch6 60 pitch7 62 pitch8 64 attack 10 decay 40 sustain .8 release 500 fmRate 4 fmDepth .25 lpfMin 70 lpfMax 120 octaveShift 0 ; 
+
+
+# hexatonic blues starting on g;
+
+3 pitch1 43 pitch2 46 pitch3 48 pitch4 49 pitch5 50 pitch6 53 pitch7 55 pitch8 58 attack 50 decay 100 sustain .8 release 500 fmRate 4 fmDepth .25 lpfMin 70 lpfMax 120 octaveShift 0 ; 
+
+
+# hexatonic blues starting on a octave higher;
+
+4 pitch1 69 pitch2 72 pitch3 74 pitch4 75 pitch5 76 pitch6 79 pitch7 81 pitch8 84 attack 20 decay 10 sustain .8 release 200 fmRate 4 fmDepth .25 lpfMin 70 lpfMax 120 octaveShift 0 ; 
+
+
+# phrygian with fm mod;
+
+5 pitch1 52 pitch2 53 pitch3 55 pitch4 57 pitch5 59 pitch6 60 pitch7 62 pitch8 64 attack 10 decay 40 sustain .8 release 500 fmRate 40 fmDepth 4 lpfMin 70 lpfMax 120 octaveShift -1; 
+
+
+

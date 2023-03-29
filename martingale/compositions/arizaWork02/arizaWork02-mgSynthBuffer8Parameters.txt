@@ -1,0 +1,12 @@
+# NO COMMAS;
+# preset numbers are values for presets ;
+# the preset numbers are those defined in the file path ; 
+
+# ambient samples each group at different playback rates ;
+
+1 filePath arizaWork02-mgSynthBufferParameters.txt  preset1 1 preset2 2 preset3 3 preset4 4 preset5 5 preset6 6 preset7 7 preset8 8  ;
+
+2 filePath arizaWork02-mgSynthBufferParameters.txt  preset1 9 preset2 10 preset3 11 preset4 12 preset5 13 preset6 14 preset7 15 preset8 16   ;
+
+3 filePath arizaWork02-mgSynthBufferParameters.txt  preset1 17 preset2 18 preset3 19 preset4 20 preset5 21 preset6 22 preset7 23 preset8 24   ;
+

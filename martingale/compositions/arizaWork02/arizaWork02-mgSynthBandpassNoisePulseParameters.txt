@@ -1,0 +1,21 @@
+# note that as large amp value is needed for pitch scaling;  
+# DO NOT USE COMMAS;
+
+# first scale presentation large count values;
+
+1 pitch1 51 pitch2 53 pitch3 56 pitch4 60 pitch5 61 pitch6 66 pitch7 67 pitch8 71 count1 4 count2 5 count3 3 count4 2 count5 2 count6 3 count7 4 count8 3 duration 60 amp 150 bpResonance 1 attack 200 decay 5 sustain .9 release 10 lpfMin 70 lpfMax 120 lpfResonanceMin 0.5 lpfResonanceMax 3.5;
+
+# same pitches but faster counts shorter durations;
+
+2 pitch1 51 pitch2 53 pitch3 56 pitch4 60 pitch5 61 pitch6 66 pitch7 67 pitch8 71 count1 2 count2 3 count3 1 count4 2 count5 4 count6 3 count7 2 count8 1 duration 30 amp 150 bpResonance 1 attack 40 decay 5 sustain .9 release 10 lpfMin 70 lpfMax 120 lpfResonanceMin 0.5 lpfResonanceMax 3.5;
+
+# up an octave pitches but faster counts shorter durations;
+# noise with wider bandwidth;
+
+3 pitch1 63 pitch2 65 pitch3 68 pitch4 72 pitch5 73 pitch6 78 pitch7 79 pitch8 83 count1 2 count2 1 count3 1 count4 2 count5 1 count6 3 count7 1 count8 1 duration 20 amp 10 bpResonance 20 attack 20 decay 5 sustain .9 release 10 lpfMin 70 lpfMax 120 lpfResonanceMin 0.5 lpfResonanceMax 3.5;
+
+
+# low frequencies wide bandwidth slow articulation;
+
+4 pitch1 39 pitch2 41 pitch3 44 pitch4 48 pitch5 49 pitch6 54 pitch7 55 pitch8 59 count1 5 count2 3 count3 6 count4 7 count5 8 count6 6 count7 5 count8 4 duration 120 amp 20 bpResonance 40 attack 200 decay 5 sustain .9 release 10 lpfMin 70 lpfMax 120 lpfResonanceMin 0.5 lpfResonanceMax 3.5;
+

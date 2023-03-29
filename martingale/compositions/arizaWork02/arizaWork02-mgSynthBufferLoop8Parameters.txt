@@ -1,0 +1,11 @@
+# NO COMMAS ;
+
+# all short synthetic percussion sounds;
+
+1 filePath arizaWork02-mgSynthBufferParameters.txt  preset1 25 preset2 26 preset3 27 preset4 28 preset5 29 preset6 30 preset7 31 preset8 32  rateShiftMin -1.5 rateShiftMax 20;
+
+
+# synthetic percussion sounds;
+
+2 filePath arizaWork02-mgSynthBufferParameters.txt  preset1 33 preset2 34 preset3 35 preset4 36 preset5 37 preset6 38 preset7 39 preset8 40  rateShiftMin -1. rateShiftMax 6;
+

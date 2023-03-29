@@ -1,0 +1,37 @@
+#N canvas 590 275 731 379 10;
+#X obj 61 29 inlet;
+#X obj 128 29 inlet;
+#X obj 207 27 inlet;
+#X obj 62 232 zl nth;
+#X obj 62 273 outlet;
+#X obj 62 62 t b;
+#X obj 207 53 t b l b l;
+#X obj 256 80 zl len;
+#X obj 129 96 f;
+#X obj 129 124 - 1;
+#X obj 166 150 %;
+#X obj 166 177 + 1;
+#X msg 202 178 -1;
+#X text 209 225 -1 prevents initial list inptu from sending output
+;
+#X text 331 63 customization of nth: only send output with bang \;
+can load a list without sending output \; current index is maintained
+and can be repeated \; inex values start at 1 as with all lists \;
+modulus of index values based on lenght of list are permitted;
+#X obj 237 183 loadbang;
+#X connect 0 0 5 0;
+#X connect 1 0 8 0;
+#X connect 2 0 6 0;
+#X connect 3 0 4 0;
+#X connect 5 0 3 0;
+#X connect 6 0 8 0;
+#X connect 6 1 3 0;
+#X connect 6 2 12 0;
+#X connect 6 3 7 0;
+#X connect 7 0 10 1;
+#X connect 8 0 9 0;
+#X connect 9 0 10 0;
+#X connect 10 0 11 0;
+#X connect 11 0 3 1;
+#X connect 12 0 3 1;
+#X connect 15 0 12 0;

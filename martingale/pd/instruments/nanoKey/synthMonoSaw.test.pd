@@ -1,0 +1,11 @@
+#N canvas 636 181 450 300 10;
+#X obj 260 85 mgTableWaveSaw;
+#X obj 262 109 mgTableWaveSquare;
+#X obj 161 189 dac~;
+#X obj 160 158 *~ 0.6;
+#X msg 19 14 \; pd dsp 1;
+#X msg 19 49 \; pd dsp 0;
+#X obj 161 99 synthMonoSaw;
+#X connect 3 0 2 0;
+#X connect 3 0 2 1;
+#X connect 6 0 3 0;

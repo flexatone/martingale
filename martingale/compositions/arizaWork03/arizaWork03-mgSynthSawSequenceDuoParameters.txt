@@ -1,0 +1,27 @@
+# basic ;
+
+# introductory scale;
+ 
+1 patternFileA arizaWork03-mgDataPulsePatterns16.txt patternA1 1 patternA2 2 patternA3 3 patternA4 4 patternA5 1 patternA6 2 patternA7 3 patternA8 4 patternFileB arizaWork03-mgDataPitchPatterns16.txt patternB1 1 patternB2 2 patternB3 3 patternB4 4 patternB5 1 patternB6 2 patternB7 3 patternB8 4 attack 10 decay 10 sustain .9 release 100 duration 200 macroAttack 20 macroRelease 20 fmRate 40 fmDepth 4 octaveShift -1 pulseModA 1 pulseModB 2; 
+
+
+
+2 patternFileA arizaWork03-mgDataPulsePatterns16.txt patternA1 1 patternA2 2 patternA3 3 patternA4 4 patternA5 1 patternA6 2 patternA7 3 patternA8 4 patternFileB arizaWork03-mgDataPitchPatterns16.txt patternB1 5 patternB2 6 patternB3 7 patternB4 8 patternB5 5 patternB6 6 patternB7 7 patternB8 8 attack 10 decay 10 sustain .9 release 100 duration 200 macroAttack 20 macroRelease 20 fmRate 40 fmDepth 4 octaveShift -1 pulseModA 1 pulseModB 2; 
+
+
+
+3 patternFileA arizaWork03-mgDataPulsePatterns16.txt patternA1 1 patternA2 2 patternA3 3 patternA4 4 patternA5 1 patternA6 2 patternA7 3 patternA8 4 patternFileB arizaWork03-mgDataPitchPatterns16.txt patternB1 9 patternB2 10 patternB3 11 patternB4 12 patternB5 9 patternB6 10 patternB7 11 patternB8 12 attack 30 decay 10 sustain .7 release 80 duration 120 macroAttack 20 macroRelease 20 fmRate 40 fmDepth 4 octaveShift -1 pulseModA 1 pulseModB 2; 
+
+
+# for faster tempo / up to 600 bpm;
+
+4 patternFileA arizaWork03-mgDataPulsePatterns16.txt patternA1 1 patternA2 2 patternA3 3 patternA4 4 patternA5 1 patternA6 2 patternA7 3 patternA8 4 patternFileB arizaWork03-mgDataPitchPatterns16.txt patternB1 13 patternB2 14 patternB3 15 patternB4 16 patternB5 13 patternB6 14 patternB7 15 patternB8 16 attack 5 decay 10 sustain .6 release 100 duration 100 macroAttack 20 macroRelease 20 fmRate 40 fmDepth 4 octaveShift -1 pulseModA 1 pulseModB 2; 
+
+
+
+
+
+
+
+
+

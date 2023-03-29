@@ -1,0 +1,14 @@
+# NO COMMAS;
+# preset numbers are values for presets ;
+# the preset numbers are those defined in the file path ; 
+
+# mostly gongs;
+
+1 filePath arizaWork03-mgSynthBufferParameters.txt  preset1 11 preset2 10 preset3 12 preset4 13 preset5 4 preset6 5 preset7 6 preset8 14  ;
+
+
+# mostly bells;
+
+2 filePath arizaWork03-mgSynthBufferParameters.txt  preset1 7 preset2 8 preset3 9 preset4 13 preset5 1 preset6 3 preset7 2 preset8 14  ;
+
+

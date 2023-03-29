@@ -1,0 +1,7 @@
+#N canvas 0 22 450 300 10;
+#X msg 316 72;
+#X floatatom 188 94 5 0 1 0 - - -;
+#X floatatom 172 200 5 0 0 0 - - -;
+#X obj 173 147 mgScaleUnitMinMidMax 10 20 100;
+#X connect 1 0 3 0;
+#X connect 3 0 2 0;

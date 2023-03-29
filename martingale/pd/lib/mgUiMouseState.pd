@@ -1,0 +1,38 @@
+#N canvas 355 593 813 318 10;
+#X floatatom 43 20 6 0 0 0 - - -;
+#X floatatom 3 20 6 0 1 0 - - -;
+#X obj 152 20 MouseState;
+#X obj 152 -21 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+1;
+#X obj 152 -1 metro 50;
+#X obj 166 49 / 1024;
+#X obj 178 -57 loadbang;
+#X obj 146 126 outlet;
+#X obj 220 121 outlet;
+#X obj 260 -58 inlet;
+#X obj 260 20 unpack f f;
+#X obj 224 49 expr 1-($f1/$f2);
+#X msg 275 -23 1024 768;
+#X obj 124 -57 inlet;
+#X text 349 -22 provide resolution as list argument to second inlet
+;
+#X obj 152 87 clip 0 1;
+#X obj 220 86 clip 0 1;
+#X connect 2 1 5 0;
+#X connect 2 2 11 0;
+#X connect 3 0 4 0;
+#X connect 4 0 2 0;
+#X connect 5 0 15 0;
+#X connect 6 0 3 0;
+#X connect 6 0 12 0;
+#X connect 9 0 10 0;
+#X connect 10 0 5 1;
+#X connect 10 1 11 1;
+#X connect 11 0 16 0;
+#X connect 12 0 10 0;
+#X connect 13 0 3 0;
+#X connect 15 0 7 0;
+#X connect 15 0 1 0;
+#X connect 16 0 8 0;
+#X connect 16 0 0 0;
+#X coords 0 -1 1 1 90 40 1 0 0;

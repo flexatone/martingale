@@ -1,0 +1,132 @@
+# NO COMMAS;
+
+
+# ambient birds ;
+1 filePath 28202.aif playbackRate 1.0 gain 1.5 attack 20 release 20 lpfMin 60 lpfMax 120  ;
+
+# ambient rain;
+2 filePath 29561.aif playbackRate 1.0 gain 1.5 attack 20 release 20 lpfMin 60 lpfMax 120  ;
+
+# ambient geese / shorter;
+3 filePath 32673.aif playbackRate 1.0 gain 1.5 attack 20 release 20 lpfMin 60 lpfMax 120  ;
+
+# ambient birds;
+4 filePath 27387.aif playbackRate 1.0 gain 2 attack 20 release 20 lpfMin 60 lpfMax 120  ;
+
+# ambient melodic birds ;
+5 filePath 28108.aif playbackRate 1.0 gain 1.5 attack 20 release 20 lpfMin 60 lpfMax 120  ;
+
+# forest;
+6 filePath 55349.aif playbackRate 1.0 gain 1.5 attack 20 release 20 lpfMin 60 lpfMax 120  ;
+
+# forest;
+7 filePath 46272.aif playbackRate 1.0 gain 1.5 attack 20 release 20 lpfMin 60 lpfMax 120  ;
+
+# dense rain;
+8 filePath 38669.aif playbackRate 1.0 gain 1.5 attack 20 release 20 lpfMin 60 lpfMax 120  ;
+
+
+# alternate playback rates
+# ambient birds ;
+9 filePath 28202.aif playbackRate 1.2 gain 1.5 attack 20 release 20 lpfMin 60 lpfMax 120  ;
+
+# ambient rain;
+10 filePath 29561.aif playbackRate 1.2 gain 1.5 attack 20 release 20 lpfMin 60 lpfMax 120  ;
+
+# ambient geese / shorter;
+11 filePath 32673.aif playbackRate 1.2 gain 1.5 attack 20 release 20 lpfMin 60 lpfMax 120  ;
+
+# ambient birds;
+12 filePath 27387.aif playbackRate 1.2 gain 1.5 attack 20 release 20 lpfMin 60 lpfMax 120  ;
+
+# ambient melodic birds ;
+13 filePath 28108.aif playbackRate 1.2 gain 1.5 attack 20 release 20 lpfMin 60 lpfMax 120  ;
+
+# forest;
+14 filePath 55349.aif playbackRate 1.2 gain 1.5 attack 20 release 20 lpfMin 60 lpfMax 120  ;
+
+# forest;
+15 filePath 46272.aif playbackRate 1.2 gain 1.5 attack 20 release 20 lpfMin 60 lpfMax 120  ;
+
+# dense rain;
+16 filePath 38669.aif playbackRate 1.2 gain 1.5 attack 20 release 20 lpfMin 60 lpfMax 120  ;
+
+
+
+# alternate playback rates
+# ambient birds ;
+17 filePath 28202.aif playbackRate 0.8 gain 1.5 attack 20 release 20 lpfMin 60 lpfMax 120  ;
+
+# ambient rain;
+18 filePath 29561.aif playbackRate 0.8 gain 1.5 attack 20 release 20 lpfMin 60 lpfMax 120  ;
+
+# ambient geese / shorter;
+19 filePath 32673.aif playbackRate 0.8 gain 1.5 attack 20 release 20 lpfMin 60 lpfMax 120  ;
+
+# ambient birds;
+20 filePath 27387.aif playbackRate 0.8 gain 1.5 attack 20 release 20 lpfMin 60 lpfMax 120  ;
+
+# ambient melodic birds ;
+21 filePath 28108.aif playbackRate 0.8 gain 1.5 attack 20 release 20 lpfMin 60 lpfMax 120  ;
+
+# forest;
+22 filePath 55349.aif playbackRate 0.8 gain 1.5 attack 20 release 20 lpfMin 60 lpfMax 120  ;
+
+# forest;
+23 filePath 46272.aif playbackRate 0.8 gain 1.5 attack 20 release 20 lpfMin 60 lpfMax 120  ;
+
+# dense rain;
+24 filePath 38669.aif playbackRate 0.8 gain 1.5 attack 20 release 20 lpfMin 60 lpfMax 120  ;
+
+
+# all short percussive sounds / bottom 4 low / top 4 high;
+
+25 filePath 100052-drumKick.aif playbackRate 1.0 gain 1.5 attack 20 release 20 lpfMin 60 lpfMax 120  ;
+
+
+26 filePath 100067-drumTomMid.aif playbackRate 1.0 gain 1.5 attack 20 release 20 lpfMin 60 lpfMax 120  ;
+
+
+27 filePath 13912-mid-slow.aif playbackRate 1.0 gain 1.5 attack 20 release 20 lpfMin 60 lpfMax 120  ;
+
+28 filePath 13891-mid-fast.aif playbackRate 1.0 gain 2 attack 20 release 20 lpfMin 60 lpfMax 120  ;
+
+
+29 filePath 75834-lm1Cabasa.aif playbackRate 1.0 gain 1.5 attack 20 release 20 lpfMin 60 lpfMax 120  ;
+
+
+30 filePath 100053-drumHatClosed.aif playbackRate 1.0 gain 1.5 attack 20 release 20 lpfMin 60 lpfMax 120  ;
+
+
+31 filePath 75844-lm1Tamb.aif playbackRate 1.0 gain 1.5 attack 20 release 20 lpfMin 60 lpfMax 120  ;
+
+32 filePath 100057-drumRide.aif playbackRate 1.0 gain 1.5 attack 20 release 20 lpfMin 60 lpfMax 120  ;
+
+
+
+# alternate percussive sounds;
+
+33 filePath 12518-sk1Kick.aif playbackRate 1.0 gain 1.5 attack 20 release 20 lpfMin 60 lpfMax 120  ;
+
+
+34 filePath 12519-sk1HatClosed.aif playbackRate 1.0 gain 1.5 attack 20 release 20 lpfMin 60 lpfMax 120  ;
+
+
+35 filePath 12520-sk1HatOpen.aif playbackRate 1.0 gain 1.5 attack 20 release 20 lpfMin 60 lpfMax 120  ;
+
+36 filePath 12521-sk1Snare1.aif playbackRate 1.0 gain 2 attack 20 release 20 lpfMin 60 lpfMax 120  ;
+
+
+37 filePath 12522-sk1Snare2.aif playbackRate 1.0 gain 1.5 attack 20 release 20 lpfMin 60 lpfMax 120  ;
+
+
+38 filePath 12523-sk1TomHi.aif playbackRate 1.0 gain 1.5 attack 20 release 20 lpfMin 60 lpfMax 120  ;
+
+
+39 filePath 12524-sk1TomLow.aif playbackRate 1.0 gain 1.5 attack 20 release 20 lpfMin 60 lpfMax 120  ;
+
+40 filePath 12525-sk1TomMid.aif playbackRate 1.0 gain 1.5 attack 20 release 20 lpfMin 60 lpfMax 120  ;
+
+
+
+

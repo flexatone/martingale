@@ -1,0 +1,15 @@
+#N canvas 586 22 450 300 10;
+#X obj 167 184 dac~;
+#X obj 190 72 osc~ 440;
+#X obj 261 77 osc~ 880;
+#X msg 97 74 0;
+#X msg 129 76 1;
+#X msg 157 76 2;
+#X obj 166 124 mgSelector2~;
+#X connect 1 0 6 1;
+#X connect 2 0 6 2;
+#X connect 3 0 6 0;
+#X connect 4 0 6 0;
+#X connect 5 0 6 0;
+#X connect 6 0 0 0;
+#X connect 6 0 0 1;

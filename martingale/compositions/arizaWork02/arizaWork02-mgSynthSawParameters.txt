@@ -1,0 +1,18 @@
+# basic ;
+
+# main scale down an octave;
+ 
+1 pitch1 39 pitch2 41 pitch3 44 pitch4 48 pitch5 49 pitch6 54 pitch7 55 pitch8 59 attack 200 decay 100 sustain .9 release 800 fmRate 2.5 fmDepth 0.0625 lpfMin 70 lpfMax 120 octaveShift 0; 
+
+# alternative scale;
+
+2 pitch1 38 pitch2 41 pitch3 44 pitch4 48 pitch5 50 pitch6 51 pitch7 55 pitch8 56 attack 100 decay 100 sustain .95 release 800 fmRate 300 fmDepth 2 lpfMin 70 lpfMax 100 octaveShift 0; 
+
+# alternate up a whole step;
+
+3 pitch1 40 pitch2 43 pitch3 46 pitch4 50 pitch5 52 pitch6 53 pitch7 57 pitch8 58 attack 100 decay 100 sustain .95 release 800 fmRate 300 fmDepth 2 lpfMin 70 lpfMax 100 octaveShift 0; 
+
+
+
+
+

@@ -1,0 +1,32 @@
+#N canvas 187 478 691 426 10;
+#X obj 57 225 print xy1;
+#X obj 139 227 print xy2;
+#X obj 342 229 print buttons9/10;
+#X obj 139 191 mgPak2 f f;
+#X obj 57 191 mgPak2 f f;
+#X text 461 233 buttons 9/10 out here;
+#X obj 207 228 print buttonsMain;
+#X msg 87 105 bang;
+#X floatatom 131 108 5 0 0 0 - - -;
+#X text 67 260 left joystick is xy1 \, with center at .5/.5 \, top
+right at 1/1 \, and bottom left at 0/0. right joystick is xy2. buttons
+should be lists of two values: state \, id // e.g. \, button 7 on should
+be given as 1 7 \, button 7 off should be 0 7 // buttons 1-4 are top
+4 of controller (left \, down \, right \, up) / buttons 5-8 are back
+4 of controller (left top \, right top \, left bottom \, right bottom)
+/ buttons 9 \, 10 are in the top center of the controller // the dpad
+is represented as button 11 \, with states 0 \, 1 \, 2 \, 3 \, 4 \,
+where states zero is the off position;
+#X obj 131 140 mgHwDualAnalogJHidin;
+#X text 74 51 press bang to get list of usb devices \; provide the
+number of the desired device as an argument;
+#X connect 3 0 1 0;
+#X connect 4 0 0 0;
+#X connect 7 0 10 0;
+#X connect 8 0 10 0;
+#X connect 10 0 4 0;
+#X connect 10 1 4 1;
+#X connect 10 2 3 0;
+#X connect 10 3 3 1;
+#X connect 10 4 6 0;
+#X connect 10 5 2 0;

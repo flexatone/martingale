@@ -1,0 +1,14 @@
+#N canvas 1136 347 450 300 10;
+#X obj 180 132 samplerate~;
+#X obj 141 39 inlet msValue;
+#X obj 139 91 t f b;
+#X obj 179 159 * 0.001;
+#X text 266 162 samps per ms;
+#X obj 145 195 *;
+#X obj 143 232 outlet;
+#X connect 0 0 3 0;
+#X connect 1 0 2 0;
+#X connect 2 0 5 0;
+#X connect 2 1 0 0;
+#X connect 3 0 5 1;
+#X connect 5 0 6 0;

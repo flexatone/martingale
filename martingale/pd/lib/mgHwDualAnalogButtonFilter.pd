@@ -1,0 +1,27 @@
+#N canvas 255 111 745 293 10;
+#X obj 112 93 unpack f f;
+#X obj 117 140 gate 1;
+#X obj 137 116 == 11;
+#X obj 117 164 sel 1 2 3 4 0;
+#X obj 112 51 inlet buttonStateId;
+#X obj 94 220 outlet;
+#X obj 143 220 outlet;
+#X obj 196 220 outlet;
+#X obj 250 225 outlet;
+#X obj 302 219 outlet;
+#X obj 299 106 loadbang;
+#X obj 298 131 f \$1;
+#X text 270 54 only let pass button values that are provided as an
+argument \; permit 5 state values;
+#X connect 0 0 1 1;
+#X connect 0 1 2 0;
+#X connect 1 0 3 0;
+#X connect 2 0 1 0;
+#X connect 3 0 5 0;
+#X connect 3 1 6 0;
+#X connect 3 2 7 0;
+#X connect 3 3 8 0;
+#X connect 3 4 9 0;
+#X connect 4 0 0 0;
+#X connect 10 0 11 0;
+#X connect 11 0 2 1;

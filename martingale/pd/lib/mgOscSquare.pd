@@ -1,0 +1,12 @@
+#N canvas 370 394 665 379 10;
+#X obj 43 208 outlet~;
+#X obj 44 85 inlet~;
+#X obj 46 137 *~ 2048;
+#X obj 41 113 phasor~;
+#X text 214 72 note: the mgTableWaveSquare abstraction must be inlcuded
+in patches using this oscillator;
+#X obj 44 172 tabread4~ mgTableWaveSquare;
+#X connect 1 0 3 0;
+#X connect 2 0 5 0;
+#X connect 3 0 2 0;
+#X connect 5 0 0 0;

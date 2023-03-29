@@ -1,0 +1,16 @@
+#N canvas 311 648 657 306 10;
+#X obj 153 102 mgSignalAutoSelector;
+#X obj 161 188 mgUiSnapshot;
+#X msg 286 42 3;
+#X obj 130 38 cycle~ 0.5;
+#X obj 103 72 *~ 0;
+#X msg 163 73 1;
+#X text 257 147 once a signal has been detected in the left inlet \,
+that signal is always used \; otherwise \, a signal is generated based
+on the provided value. this can be used to provide overridable signal
+defaults;
+#X connect 0 0 1 0;
+#X connect 2 0 0 1;
+#X connect 3 0 4 0;
+#X connect 4 0 0 0;
+#X connect 5 0 4 1;

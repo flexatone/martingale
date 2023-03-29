@@ -1,0 +1,16 @@
+# preset numbers are values for presets ;
+# the preset numbers are those defined in the file path ; 
+# order here is the order loaded ;
+
+1 filePath arizaWork02-mgSynthBufferParameters.txt  preset1 25 preset2 26 preset3 27 preset4 28 preset5 29 preset6 30 preset7 31 preset8 32  count1 1  count2 2  count3 3  count4 1  count5 2  count6 3  count7 1  count8 2 duration 120 ;
+
+2 filePath arizaWork02-mgSynthBufferParameters.txt  preset1 25 preset2 26 preset3 27 preset4 28 preset5 29 preset6 30 preset7 31 preset8 32  count1 1  count2 2  count3 3  count4 4  count5 2  count6 3  count7 4  count8 5 duration 120 ;
+
+
+3 filePath arizaWork02-mgSynthBufferParameters.txt  preset1 25 preset2 26 preset3 27 preset4 28 preset5 29 preset6 30 preset7 31 preset8 32  count1 2  count2 3  count3 4  count4 5  count5 3  count6 4  count7 5  count8 6 duration 120 ;
+
+
+4 filePath arizaWork02-mgSynthBufferParameters.txt  preset1 25 preset2 26 preset3 27 preset4 28 preset5 29 preset6 30 preset7 31 preset8 32  count1 3  count2 4  count3 5  count4 6  count5 4  count6 5  count7 6  count8 7 duration 120 ;
+
+
+

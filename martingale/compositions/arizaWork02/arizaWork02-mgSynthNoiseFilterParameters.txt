@@ -1,0 +1,10 @@
+# comment ;  
+
+1 attack 300 decay 200 sustain .95 release 400 bp1Amp 150 bp1Pitch 51 bp1Resonance 1 bp2Amp 60 bp2Pitch 71 bp2Resonance 5 sah1Amp 4 sah1Rate .2 sah1Min 10 sah1Max 20 sah2Amp 4 sah2Rate 3 sah2Min 20 sah2Max 40 sah3Amp 2 sah3Rate 40 sah3Min 100 sah3Max 400 sah4Amp 1 sah4Rate .5 sah4Min 4000 sah4Max 8000;
+
+
+2 attack 300 decay 40 sustain .8 release 400 bp1Amp 150 bp1Pitch 53 bp1Resonance 1 bp2Amp 60 bp2Pitch 67 bp2Resonance 5 sah1Amp 4 sah1Rate .2 sah1Min 10 sah1Max 20 sah2Amp 4 sah2Rate 3 sah2Min 20 sah2Max 40 sah3Amp 2 sah3Rate 40 sah3Min 100 sah3Max 400 sah4Amp 1 sah4Rate .5 sah4Min 4000 sah4Max 8000;
+
+3 attack 300 decay 40 sustain .8 release 400 bp1Amp 150 bp1Pitch 56 bp1Resonance 1 bp2Amp 60 bp2Pitch 66 bp2Resonance 5 sah1Amp 4 sah1Rate .2 sah1Min 10 sah1Max 20 sah2Amp 4 sah2Rate 3 sah2Min 20 sah2Max 40 sah3Amp 2 sah3Rate 40 sah3Min 100 sah3Max 400 sah4Amp 1 sah4Rate .5 sah4Min 4000 sah4Max 8000;
+
+

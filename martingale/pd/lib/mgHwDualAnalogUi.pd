@@ -1,0 +1,18 @@
+#N canvas 405 22 450 300 16;
+#X obj 224 27 inlet;
+#X floatatom 17 22 5 0 10 0 - - -;
+#X floatatom 17 54 5 0 10 0 - - -;
+#X floatatom 82 22 5 0 10 0 - - -;
+#X floatatom 82 54 5 0 10 0 - - -;
+#X text 2 25 x;
+#X text 2 55 y;
+#X text 14 -1 1;
+#X text 81 -1 2;
+#X obj 218 69 unpack f f f f;
+#X text 127 173;
+#X connect 0 0 9 0;
+#X connect 9 0 1 0;
+#X connect 9 1 2 0;
+#X connect 9 2 3 0;
+#X connect 9 3 4 0;
+#X coords 0 -1 1 1 140 80 2 0 0;

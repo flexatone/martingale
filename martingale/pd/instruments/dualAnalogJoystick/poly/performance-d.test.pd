@@ -1,0 +1,18 @@
+#N canvas 730 22 558 222 10;
+#X msg -185 -90 \; pd dsp 1;
+#X msg -185 -53 \; pd dsp 0;
+#X obj -2 22 dac~;
+#X msg -83 -72 bang;
+#X obj 34 -82 mgHwDualAnalogPolyUi;
+#X floatatom -47 -72 5 0 0 0 - - -;
+#X obj -185 52 mgTableWaveSaw;
+#X obj -185 75 mgTableWaveSquare;
+#X obj -77 -15 performance-d;
+#X text -32 52 i1: mgSynthNoiseFilter // i2 mgSynthBuffer8 // i3 mgSynthSaw
+// i4 mgSynthBufferLoop8 // i5 mgSynthBandpassNoisePulse // i6 mgSynthBufferPulse8
+;
+#X connect 3 0 8 0;
+#X connect 5 0 8 0;
+#X connect 8 0 4 0;
+#X connect 8 1 2 0;
+#X connect 8 1 2 1;

@@ -1,0 +1,15 @@
+#N canvas 838 724 558 222 10;
+#X msg -185 -90 \; pd dsp 1;
+#X msg -185 -53 \; pd dsp 0;
+#X obj 67 78 dac~;
+#X msg -67 -12 bang;
+#X obj 21 -83 mgHwDualAnalogPolyUi;
+#X obj 198 36 mgTableWaveSaw;
+#X obj 198 59 mgTableWaveSquare;
+#X floatatom -50 -43 5 0 0 0 - - -;
+#X obj -35 27 performance-a;
+#X connect 3 0 8 0;
+#X connect 7 0 8 0;
+#X connect 8 0 4 0;
+#X connect 8 1 2 0;
+#X connect 8 1 2 1;

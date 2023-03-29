@@ -1,0 +1,39 @@
+# basic ;
+
+# pitches here are preset window selection from a bank;
+ 
+
+# gone grains are more wind like;
+
+1 filePathA 64554-metal.aif filePathB 64551-metal.aif window1 5 window2 2 window3 3 window4 6 window5 5 window6 2 window7 3 window8 6 attack 20 decay 100 sustain .8 release 600 playbackDeviation 0.1 windowDeviation 0.05 windowMin 15 windowMax 400 amp 4 ampDeviation 0.25; 
+
+
+2 filePathA 64550-metal.aif filePathB 64549-metal.aif window1 5 window2 2 window3 3 window4 6 window5 5 window6 2 window7 3 window8 6 attack 20 decay 100 sustain .8 release 600 playbackDeviation 0.1 windowDeviation 0.05 windowMin 15 windowMax 400 amp 4 ampDeviation 0.25; 
+
+# bright bells sound sinusoidal;
+
+3 filePathA 94203-bell.aif filePathB 94024-bell.aif window1 5 window2 2 window3 3 window4 6 window5 5 window6 2 window7 3 window8 6 attack 20 decay 100 sustain .8 release 600 playbackDeviation 0.1 windowDeviation 0.05 windowMin 15 windowMax 400 amp 4 ampDeviation 0.3; 
+
+
+
+
+# two noises continuous sounds / edgier;
+
+4 filePathA 2131-mid-slow.aif filePathB 2138-high-slow.aif window1 5 window2 2 window3 3 window4 6 window5 5 window6 2 window7 3 window8 6 attack 20 decay 100 sustain .8 release 600 playbackDeviation 0.1 windowDeviation 0.05 windowMin 15 windowMax 300 amp 4 ampDeviation 0.5; 
+
+# two noises / falling metal / more particular;
+
+5 filePathA 13810-high-slow.aif filePathB 13812-high-slow.aif window1 5 window2 2 window3 3 window4 6 window5 5 window6 2 window7 3 window8 6 attack 20 decay 100 sustain .8 release 600 playbackDeviation 0.1 windowDeviation 0.05 windowMin 15 windowMax 300 amp 4 ampDeviation 0.5; 
+
+# two noises / falling metal;
+
+6 filePathA 15881-mid-slow.aif filePathB 13824-mid-slow.aif window1 5 window2 2 window3 3 window4 6 window5 5 window6 2 window7 3 window8 6 attack 20 decay 100 sustain .8 release 600 playbackDeviation 0.1 windowDeviation 0.05 windowMin 15 windowMax 300 amp 4 ampDeviation 0.5; 
+
+
+
+
+
+
+
+
+

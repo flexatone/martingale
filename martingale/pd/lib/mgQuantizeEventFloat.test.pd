@@ -1,0 +1,24 @@
+#N canvas 511 527 450 300 10;
+#X obj 151 112 mgQuantizeEventFloat;
+#X obj 145 177 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 115 31 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+1;
+#X msg 218 62 bang;
+#X obj 173 178 print;
+#X msg 203 33 1.5;
+#X msg 190 58 0.5;
+#X obj 101 96 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 299 59 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+1;
+#X obj 109 57 metro 1000;
+#X connect 0 0 1 0;
+#X connect 0 0 4 0;
+#X connect 2 0 9 0;
+#X connect 3 0 0 1;
+#X connect 5 0 0 1;
+#X connect 6 0 0 1;
+#X connect 8 0 0 2;
+#X connect 9 0 0 0;
+#X connect 9 0 7 0;

@@ -1,0 +1,45 @@
+#N canvas 43 682 962 460 10;
+#X obj 46 326 zl group 2;
+#X obj 44 14 inlet;
+#X obj 51 389 outlet;
+#X obj 96 388 outlet;
+#X obj 146 390 outlet;
+#X obj 191 389 outlet;
+#X obj 252 385 outlet;
+#X obj 297 384 outlet;
+#X obj 347 386 outlet;
+#X obj 47 44 route float list symbol;
+#X obj 117 325 print performance-dParameters.pd;
+#X obj 67 72 sel 1 2 3 4 5;
+#X obj 45 358 route preset1 preset2 preset3 preset4 preset5 preset6
+tempo;
+#X text 523 151 i1: mgSynthNoiseFilter // i2 mgSynthBuffer8 // i3 mgSynthSaw
+// i4 mgSynthBufferLoop8 // i5 mgSynthBandpassNoisePulse // i6 mgSynthBufferPulse8
+;
+#X msg 89 103 preset1 1 preset2 2 preset3 1 preset4 2 preset5 1 preset6
+2 tempo 480;
+#X msg 88 138 preset1 1 preset2 3 preset3 2 preset4 3 preset5 2 preset6
+3 tempo 480;
+#X msg 93 173 preset1 1 preset2 4 preset3 3 preset4 4 preset5 3 preset6
+4 tempo 480;
+#X msg 95 206 preset1 1 preset2 6 preset3 4 preset4 6 preset5 4 preset6
+6 tempo 480;
+#X connect 0 0 10 0;
+#X connect 0 0 12 0;
+#X connect 1 0 9 0;
+#X connect 9 0 11 0;
+#X connect 11 0 14 0;
+#X connect 11 1 15 0;
+#X connect 11 2 16 0;
+#X connect 11 3 17 0;
+#X connect 12 0 2 0;
+#X connect 12 1 3 0;
+#X connect 12 2 4 0;
+#X connect 12 3 5 0;
+#X connect 12 4 6 0;
+#X connect 12 5 7 0;
+#X connect 12 6 8 0;
+#X connect 14 0 0 0;
+#X connect 15 0 0 0;
+#X connect 16 0 0 0;
+#X connect 17 0 0 0;

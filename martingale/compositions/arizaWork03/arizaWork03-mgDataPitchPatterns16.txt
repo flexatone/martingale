@@ -1,0 +1,64 @@
+# basic ;
+# specify a root pitch and deviations above or below;
+
+
+# 40=e2 / 42=f#2 / 43=g2 / 48=c3 / 51=d#3 ;
+# just 2 and 3 and 11 above bass;
+
+1 root 40 length 16 pulse1 1 pulse2 0 pulse3 1 pulse4 0 pulse5 2 pulse6 11 pulse7 2 pulse8 0 pulse9 2 pulse10 3 pulse11 11 pulse12 0 pulse13 2 pulse14 11 pulse15 3 pulse16 2;
+
+# just 2 and 3 above bass;
+
+2 root 40 length 16 pulse1 0 pulse2 2 pulse3 0 pulse4 3 pulse5 2 pulse6 0 pulse7 3 pulse8 2 pulse9 2 pulse10 0 pulse11 2 pulse12 3 pulse13 0 pulse14 3 pulse15 0 pulse16 3;
+
+# just 2 and 3 and 8 above bass;
+
+3 root 40 length 16 pulse1 8 pulse2 2 pulse3 8 pulse4 3 pulse5 2 pulse6 0 pulse7 0 pulse8 0 pulse9 2 pulse10 8 pulse11 2 pulse12 8 pulse13 0 pulse14 0 pulse15 0 pulse16 3;
+
+# just 2 and 3 above bass;
+
+4 root 40 length 16 pulse1 3 pulse2 2 pulse3 3 pulse4 3 pulse5 3 pulse6 0 pulse7 2 pulse8 0 pulse9 0 pulse10 0 pulse11 3 pulse12 2 pulse13 3 pulse14 3 pulse15 0 pulse16 0;
+
+
+
+# bass up a perfect fifth to 47 ;
+# shifts are 2 / -4 / -1 / 10;
+# b2 / c# / g2 / b- / a  ;
+
+5 root 47 length 16 pulse1 2 pulse2 0 pulse3 2 pulse4 0 pulse5 -1 pulse6 10 pulse7 -4 pulse8 0 pulse9 2 pulse10 -4 pulse11 0 pulse12 0 pulse13 2 pulse14 0 pulse15 0 pulse16 -1;
+
+6 root 47 length 16 pulse1 0 pulse2 10 pulse3 0 pulse4 10 pulse5 -1 pulse6 0 pulse7 0 pulse8 0 pulse9 10 pulse10 -1 pulse11 10 pulse12 0 pulse13 2 pulse14 0 pulse15 2 pulse16 0;
+
+7 root 47 length 16 pulse1 0 pulse2 -4 pulse3 -1 pulse4 -4 pulse5 0 pulse6 -4 pulse7 -1 pulse8 0 pulse9 -4 pulse10 -1 pulse11 0 pulse12 -4 pulse13 -1 pulse14 0 pulse15 2 pulse16 0;
+
+8 root 47 length 16 pulse1 0 pulse2 0 pulse3 2 pulse4 2 pulse5 0 pulse6 10 pulse7 10 pulse8 2 pulse9 2 pulse10 2 pulse11 -4 pulse12 10 pulse13 10 pulse14 -4 pulse15 2 pulse16 0;
+
+
+
+
+# bass up a perfect fifth to 54 ;
+# shifts 2 / 3 / 11 / 8 // octave transpositions of first collection;
+# shifts 14 / 27 / 23 / 20;
+
+9 root 54 length 16 pulse1 8 pulse2 0 pulse3 23 pulse4 0 pulse5 0 pulse6 23 pulse7 0 pulse8 0 pulse9 0 pulse10 8 pulse11 0 pulse12 0 pulse13 23 pulse14 0 pulse15 23 pulse16 0;
+
+10 root 54 length 16 pulse1 0 pulse2 27 pulse3 0 pulse4 14 pulse5 0 pulse6 0 pulse7 0 pulse8 0 pulse9 27 pulse10 14 pulse11 27 pulse12 14 pulse13 0 pulse14 0 pulse15 14 pulse16 0;
+
+11 root 54 length 16 pulse1 0 pulse2 0 pulse3 20 pulse4 0 pulse5 0 pulse6 20 pulse7 2 pulse8 0 pulse9 2 pulse10 20 pulse11 0 pulse12 20 pulse13 20 pulse14 0 pulse15 2 pulse16 0;
+
+12 root 54 length 16 pulse1 14 pulse2 23 pulse3 14 pulse4 23 pulse5 0 pulse6 0 pulse7 0 pulse8 0 pulse9 23 pulse10 14 pulse11 23 pulse12 0 pulse13 0 pulse14 0 pulse15 23 pulse16 14;
+
+
+# bass up a perfect fifth to 61 ;
+# shifts are 2 / -4 / -1 / 10 // octave transpositions of second collection;
+# shifts -10 / 20 / -25 / 22;
+
+13 root 61 length 16 pulse1 8 pulse2 0 pulse3 -10 pulse4 0 pulse5 -10 pulse6 -25 pulse7 0 pulse8 -10 pulse9 0 pulse10 -25 pulse11 -10 pulse12 0 pulse13 20 pulse14 0 pulse15 20 pulse16 0;
+
+14 root 61 length 16 pulse1 0 pulse2 -25 pulse3 22 pulse4 22 pulse5 -25 pulse6 0 pulse7 0 pulse8 22 pulse9 20 pulse10 22 pulse11 -25 pulse12 -25 pulse13 -25 pulse14 0 pulse15 -10 pulse16 -10;
+
+15 root 61 length 16 pulse1 0 pulse2 0 pulse3 -10 pulse4 20 pulse5 -10 pulse6 0 pulse7 0 pulse8 0 pulse9 -10 pulse10 20 pulse11 -10 pulse12 0 pulse13 0 pulse14 0 pulse15 -10 pulse16 0;
+
+16 root 61 length 16 pulse1 0 pulse2 -1 pulse3 22 pulse4 0 pulse5 -10 pulse6 -4 pulse7 -25 pulse8 -25 pulse9 10 pulse10 0 pulse11 2 pulse12 -4 pulse13 -25 pulse14 -25 pulse15 22 pulse16 22;
+
+

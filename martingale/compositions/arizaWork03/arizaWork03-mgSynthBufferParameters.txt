@@ -1,0 +1,69 @@
+# NO COMMAS;
+
+# primary playback speeds;
+# open bright gong tone;
+1 filePath 64554-metal.aif playbackRate 1.0 gain 1.5 attack 10 release 80 lpfMin 60 lpfMax 120  ;
+
+# darker gong tone;
+2 filePath 64553-metal.aif playbackRate 1.0 gain 1.5 attack 10 release 80 lpfMin 60 lpfMax 120  ;
+
+# brighter gong tone;
+3 filePath 64552-metal.aif playbackRate 1.0 gain 1.5 attack 10 release 80 lpfMin 60 lpfMax 120  ;
+
+# low with long sustain;
+4 filePath 64548-gong.aif playbackRate 1.0 gain 2 attack 10 release 80 lpfMin 60 lpfMax 120  ;
+
+# low slow evolving ;
+5 filePath 54285-gong.aif playbackRate 1.0 gain 1.5 attack 10 release 80 lpfMin 60 lpfMax 120  ;
+
+# dark and shallow;
+6 filePath 46649-gong.aif playbackRate 1.0 gain 1.5 attack 10 release 80 lpfMin 60 lpfMax 120  ;
+
+# bright hallow and high;
+7 filePath 94203-bell.aif playbackRate 1.0 gain 1.5 attack 10 release 80 lpfMin 60 lpfMax 120  ;
+
+# clear and mid range;
+8 filePath 94198-bell.aif playbackRate 1.0 gain 1.5 attack 10 release 80 lpfMin 60 lpfMax 120  ;
+
+# bright and thin;
+9 filePath 94024-bell.aif playbackRate 1.0 gain 1.5 attack 10 release 80 lpfMin 60 lpfMax 120  ;
+
+# full sustain mid range;
+10 filePath 64551-metal.aif playbackRate 1.0 gain 1.5 attack 10 release 80 lpfMin 60 lpfMax 120  ;
+
+# brighter attack mid range;
+11 filePath 64550-metal.aif playbackRate 1.0 gain 1.5 attack 10 release 80 lpfMin 60 lpfMax 120  ;
+
+# brighter mid range;
+12 filePath 64549-metal.aif playbackRate 1.0 gain 1.5 attack 10 release 80 lpfMin 60 lpfMax 120  ;
+
+# inharmonic sharp attack;
+13 filePath 24620-bell.aif playbackRate 1.0 gain 1.5 attack 10 release 80 lpfMin 60 lpfMax 120  ;
+
+# low drone little attack; 
+14 filePath 23583-gongLow.aif playbackRate 1.0 gain 1.5 attack 10 release 80 lpfMin 60 lpfMax 120  ;
+
+
+
+
+
+# muted hits; 
+15 filePath 11878-high-fast.aif playbackRate 1.0 gain 1.5 attack 10 release 80 lpfMin 60 lpfMax 120  ;
+
+16 filePath 12680-mid-fast.aif playbackRate 1.0 gain 1.5 attack 10 release 80 lpfMin 60 lpfMax 120  ;
+
+17 filePath 12682-mid-fast.aif playbackRate 1.0 gain 1.5 attack 10 release 80 lpfMin 60 lpfMax 120  ;
+
+18 filePath 12687-mid-fast.aif playbackRate 1.0 gain 3 attack 10 release 80 lpfMin 60 lpfMax 120  ;
+
+19 filePath 13857-low-fast.aif playbackRate 1.0 gain 1.5 attack 10 release 80 lpfMin 60 lpfMax 120  ;
+
+20 filePath 12688-high-fast.aif playbackRate 1.0 gain 1.5 attack 10 release 80 lpfMin 60 lpfMax 120  ;
+
+21 filePath 13878-mid-fast.aif playbackRate 1.0 gain 1.5 attack 10 release 80 lpfMin 60 lpfMax 120  ;
+
+22 filePath 13893-low-fast.aif playbackRate 1.0 gain 1.5 attack 10 release 80 lpfMin 60 lpfMax 120  ;
+
+
+
+

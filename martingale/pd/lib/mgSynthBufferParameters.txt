@@ -1,0 +1,156 @@
+# file path must not have any spaces, and be in a directory searched by martingale ;  
+
+# low frequency hit ; 
+1 filePath 13854-low-fast.aif playbackRate 0.8 gain 2 attack 20 release 20 lpfMin 60 lpfMax 120 ;
+
+# high frequency bell;
+2 filePath 15401-high-slow.aif playbackRate 0.75 gain 1.5 attack 20 release 20 lpfMin 60 lpfMax 119 ;
+
+# sample is a high frequency squeek ;
+3 filePath 2127-mid-slow.aif playbackRate 1 gain 1.5 attack 20 release 20 lpfMin 60 lpfMax 120 ;
+
+# mid/high frequency rub ;
+4 filePath 2131-mid-slow.aif playbackRate 1 gain 1.5 attack 20 release 20 lpfMin 60 lpfMax 120 ;
+
+# a change-drop like sound ; 
+5 filePath 13810-high-slow.aif playbackRate 1 gain 1.5 attack 20 release 20 lpfMin 60 lpfMax 120 ;
+
+# a mid frequency hit; 
+6 filePath 13891-mid-fast.aif playbackRate 0.5 gain 1.5 attack 20 release 20 lpfMin 60 lpfMax 120 ;
+
+# mid frequency hit; 
+7 filePath 13912-mid-slow.aif playbackRate 2 gain 2.5 attack 20 release 20 lpfMin 60 lpfMax 120 ;
+
+# a bunch of change dropping; high frequency; 
+8 filePath 15881-mid-slow.aif playbackRate 1.0 gain 1.5 attack 20 release 20 lpfMin 60 lpfMax 120  ;
+
+# a resonant bell-like hit ;
+9 filePath 17010-mid-slow.aif playbackRate 1.0 gain 1.5 attack 20 release 20 lpfMin 60 lpfMax 120  ;
+
+# a sharp rub hit ;
+10 filePath 19901-mid-slow.aif playbackRate 1.0 gain 1.5 attack 20 release 20 lpfMin 60 lpfMax 120  ;
+
+# ambient birds ;
+11 filePath 27387.aif playbackRate 1.0 gain 2 attack 20 release 20 lpfMin 60 lpfMax 120  ;
+
+# sliding metal, sharpening ;
+12 filePath 27980-high-slow.aif playbackRate 1.0 gain 1.5 attack 20 release 20 lpfMin 60 lpfMax 120  ;
+
+# ambient birds ;
+13 filePath 28202.aif playbackRate 1.0 gain 1.5 attack 20 release 20 lpfMin 60 lpfMax 120  ;
+
+# ambient rain;
+14 filePath 29561.aif playbackRate 1.0 gain 1.5 attack 20 release 20 lpfMin 60 lpfMax 120  ;
+
+# ambient geese;
+15 filePath 32673.aif playbackRate 1.0 gain 1.5 attack 20 release 20 lpfMin 60 lpfMax 120  ;
+
+# dropped change;
+16 filePath 36632-mid-slow.aif playbackRate 1.0 gain 1.5 attack 20 release 20 lpfMin 60 lpfMax 120  ;
+
+# dropped change;
+17 filePath 36638-mid-slow.aif playbackRate 1.0 gain 1.5 attack 20 release 20 lpfMin 60 lpfMax 120  ;
+
+# slow dropped change;
+18 filePath 36632-mid-slow.aif playbackRate 0.3 gain 2 attack 20 release 20 lpfMin 60 lpfMax 120  ;
+
+# slow dropped change;
+19 filePath 36638-mid-slow.aif playbackRate 0.2 gain 2 attack 20 release 20 lpfMin 60 lpfMax 120  ;
+
+# slow sliding metal, sharpening ;
+20 filePath 27980-high-slow.aif playbackRate 0.35 gain 2 attack 20 release 20 lpfMin 60 lpfMax 120  ;
+
+# a slowed down resonant bell-like hit ;
+21 filePath 17010-mid-slow.aif playbackRate 0.4 gain 2 attack 20 release 20 lpfMin 60 lpfMax 120  ;
+
+
+
+
+
+
+# drum kits;
+
+# sk1 drum kit ;
+22 filePath 12518-sk1Kick.aif playbackRate 1 gain 5 attack 1 release 5 lpfMin 60 lpfMax 120  ;
+
+23 filePath 12519-sk1HatClosed.aif playbackRate 1 gain 5 attack 1 release 5 lpfMin 60 lpfMax 120  ;
+
+24 filePath 12520-sk1HatOpen.aif playbackRate 1 gain 3 attack 1 release 5 lpfMin 60 lpfMax 120  ;
+
+25 filePath 12521-sk1Snare1.aif playbackRate 1 gain 3 attack 1 release 5 lpfMin 60 lpfMax 120  ;
+
+26 filePath 12522-sk1Snare2.aif playbackRate 1 gain 3 attack 1 release 5 lpfMin 60 lpfMax 120  ;
+
+27 filePath 12523-sk1TomHi.aif playbackRate 1 gain 3 attack 1 release 5 lpfMin 60 lpfMax 120  ;
+
+28 filePath 12524-sk1TomLow.aif playbackRate 1 gain 3 attack 1 release 5 lpfMin 60 lpfMax 120  ;
+
+29 filePath 12525-sk1TomMid.aif playbackRate 1 gain 3 attack 1 release 5 lpfMin 60 lpfMax 120  ;
+
+
+
+
+# lm1 drum kit ;
+
+
+30 filePath 75834-lm1Cabasa.aif playbackRate 1 gain 3 attack 1 release 5 lpfMin 60 lpfMax 120  ;
+
+31 filePath 75835-lm1Clap.aif playbackRate 1 gain 3 attack 1 release 5 lpfMin 60 lpfMax 120  ;
+
+32 filePath 75836-lm1Clave.aif playbackRate 1 gain 3 attack 1 release 5 lpfMin 60 lpfMax 120  ;
+
+33 filePath 75837-lm1CongaHi.aif playbackRate 1 gain 3 attack 1 release 5 lpfMin 60 lpfMax 120  ;
+
+34 filePath 75838-lm1CongaLow.aif playbackRate 1 gain 3 attack 1 release 5 lpfMin 60 lpfMax 120  ;
+
+35 filePath 75839-lm1Cowbell.aif playbackRate 1 gain 3 attack 1 release 5 lpfMin 60 lpfMax 120  ;
+
+36 filePath 75840-lm1HatClosed.aif playbackRate 1 gain 3 attack 1 release 5 lpfMin 60 lpfMax 120  ;
+
+37 filePath 75841-lm1HatOpen.aif playbackRate 1 gain 3 attack 1 release 5 lpfMin 60 lpfMax 120  ;
+
+38 filePath 75842-lm1Kick.aif playbackRate 1 gain 5 attack 1 release 5 lpfMin 60 lpfMax 120  ;
+
+39 filePath 75843-lm1Snare.aif playbackRate 1 gain 3 attack 1 release 5 lpfMin 60 lpfMax 120  ;
+
+40 filePath 75844-lm1Tamb.aif playbackRate 1 gain 3 attack 1 release 5 lpfMin 60 lpfMax 120  ;
+
+41 filePath 75845-lm1TomHi.aif playbackRate 1 gain 3 attack 1 release 5 lpfMin 60 lpfMax 120  ;
+
+42 filePath 75846-lm1TomLow.aif playbackRate 1 gain 3 attack 1 release 5 lpfMin 60 lpfMax 120  ;
+
+
+
+
+# acoustic drum kit ;
+
+
+43 filePath 100052-drumKick.aif playbackRate 1 gain 5 attack 1 release 5 lpfMin 60 lpfMax 120  ;
+
+44 filePath 100053-drumHatClosed.aif playbackRate 1 gain 5 attack 1 release 5 lpfMin 60 lpfMax 120  ;
+
+45 filePath 100054-drumHatPedal.aif playbackRate 1 gain 5 attack 1 release 5 lpfMin 60 lpfMax 120  ;
+
+46 filePath 100055-drumHatOpen.aif playbackRate 1 gain 5 attack 1 release 5 lpfMin 60 lpfMax 120  ;
+
+47 filePath 100057-drumRide.aif playbackRate 1 gain 5 attack 1 release 5 lpfMin 60 lpfMax 120  ;
+
+48 filePath 100059-drumSnare.aif playbackRate 1 gain 5 attack 1 release 5 lpfMin 60 lpfMax 120  ;
+
+49 filePath 100061-drumCymbal.aif playbackRate 1 gain 5 attack 1 release 5 lpfMin 60 lpfMax 120  ;
+
+50 filePath 100063-drumTomHigh.aif playbackRate 1 gain 5 attack 1 release 5 lpfMin 60 lpfMax 120  ;
+
+51 filePath 100065-drumTomLow.aif playbackRate 1 gain 5 attack 1 release 5 lpfMin 60 lpfMax 120  ;
+
+52 filePath 100067-drumTomMid.aif playbackRate 1 gain 5 attack 1 release 5 lpfMin 60 lpfMax 120  ;
+
+
+
+
+
+
+
+
+
+

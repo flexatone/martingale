@@ -1,0 +1,46 @@
+#N canvas 562 542 586 577 10;
+#X msg 72 74 1;
+#X msg 106 73 2;
+#X floatatom 93 101 5 0 0 0 - - -;
+#X obj 338 236 print rawList;
+#X obj 118 255 metro 300;
+#X obj 108 226 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+1;
+#X obj 173 332 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X floatatom 230 258 5 0 0 0 - - -;
+#X obj 193 504 dac~;
+#X obj 197 328 t b f;
+#X floatatom 172 224 5 0 0 0 - - -;
+#X obj 194 290 mgSequence1x16;
+#X obj 275 194 t l;
+#X obj 87 352 print 1x16;
+#X obj 92 133 mgDataPitchPatterns16 ___________________________________
+;
+#X msg 274 84 mgDataPitchPatterns16.txt;
+#X obj 192 375 mtof;
+#X obj 191 422 lop~ 30;
+#X obj 192 398 sig~;
+#X obj 193 449 osc~;
+#X obj 191 478 *~ 0.2;
+#X connect 0 0 2 0;
+#X connect 1 0 2 0;
+#X connect 2 0 14 0;
+#X connect 4 0 11 0;
+#X connect 5 0 4 0;
+#X connect 7 0 11 2;
+#X connect 9 1 16 0;
+#X connect 10 0 4 1;
+#X connect 11 0 6 0;
+#X connect 11 0 9 0;
+#X connect 11 0 13 0;
+#X connect 12 0 3 0;
+#X connect 12 0 11 3;
+#X connect 14 2 12 0;
+#X connect 15 0 14 1;
+#X connect 16 0 18 0;
+#X connect 17 0 19 0;
+#X connect 18 0 17 0;
+#X connect 19 0 20 0;
+#X connect 20 0 8 0;
+#X connect 20 0 8 1;

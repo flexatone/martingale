@@ -1,0 +1,24 @@
+#N canvas 850 659 450 300 10;
+#X obj 172 66 inlet~;
+#X obj 114 110 edge~;
+#X obj 248 70 inlet;
+#X obj 248 97 sig~;
+#X obj 136 178 mgSelector2~;
+#X msg 116 139 1;
+#X text 139 233 any transition should cause the first inlet to be used
+\, other wise the second is used;
+#X obj 136 210 outlet~;
+#X obj 88 160 change;
+#X msg 58 178 2;
+#X obj 30 104 loadbang;
+#X connect 0 0 4 1;
+#X connect 0 0 1 0;
+#X connect 1 0 5 0;
+#X connect 1 1 5 0;
+#X connect 2 0 3 0;
+#X connect 3 0 4 2;
+#X connect 4 0 7 0;
+#X connect 5 0 8 0;
+#X connect 8 0 4 0;
+#X connect 9 0 4 0;
+#X connect 10 0 9 0;

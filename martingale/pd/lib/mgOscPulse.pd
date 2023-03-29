@@ -1,0 +1,18 @@
+#N canvas 0 22 612 415 10;
+#X obj 132 117 -~ 0.5;
+#X obj 132 166 clip~ -0.5 0.5;
+#X obj 132 189 cos~;
+#X obj 132 142 *~ 3;
+#X obj 131 215 hip~ 5;
+#X obj 132 94 phasor~;
+#X obj 128 57 inlet~;
+#X obj 136 248 outlet~;
+#X text 248 147 this produces cosine pulses that produces a nice tone
+;
+#X connect 0 0 3 0;
+#X connect 1 0 2 0;
+#X connect 2 0 4 0;
+#X connect 3 0 1 0;
+#X connect 4 0 7 0;
+#X connect 5 0 0 0;
+#X connect 6 0 5 0;

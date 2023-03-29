@@ -1,0 +1,33 @@
+#N canvas 12 22 812 469 10;
+#X obj 57 225 print xy1;
+#X obj 139 227 print xy2;
+#X msg 65 90 bang;
+#X obj 328 228 print buttons9/10;
+#X floatatom 129 93 5 0 0 0 - - -;
+#X text 69 40 press bang to get list of usb devices \; provide the
+number of the desired device as an argument;
+#X obj 57 191 mgPak2 f f;
+#X obj 139 191 mgPak2 f f;
+#X obj 207 228 print buttonsMain;
+#X obj 131 140 mgHwDualAnalogSixaxis;
+#X text 398 260 buttons 9/10 should print with select and start buttons
+;
+#X text 26 278 buttons should be lists of two values: state \, id.
+for example \, button 7-on should be given as 1 7 / button 7-off should
+be 0 7 / buttonsMain should print buttons 1-8 \, as well as the dpad
+as button 11 \, with states 0 \, 1 \, 2 \, 3 \, 4 (for left \, down
+\, right \, up) \, where state zero is the off position. main buttons
+are mapped left \, down \, right \, up (1 \, 2 \, 3 \, 4) and back
+top left \, back top right \, back bottom left \, back bottom right
+(5 \, 6 \, 7 \, 8);
+#X text 209 256;
+#X connect 2 0 9 0;
+#X connect 4 0 9 0;
+#X connect 6 0 0 0;
+#X connect 7 0 1 0;
+#X connect 9 0 6 0;
+#X connect 9 1 6 1;
+#X connect 9 2 7 0;
+#X connect 9 3 7 1;
+#X connect 9 4 8 0;
+#X connect 9 5 3 0;

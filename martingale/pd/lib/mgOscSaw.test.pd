@@ -1,0 +1,17 @@
+#N canvas 20 39 810 584 10;
+#X floatatom 367 99 5 0 0 0 - - -;
+#X obj 365 177 dac~;
+#X obj 365 132 mgOscSaw;
+#X obj 460 61 mgTableWaveSaw;
+#X obj 659 293 loadbang;
+#X obj 25 317 mgUiSignalDisplay;
+#X msg 658 341 \; pd dsp 1;
+#X msg 658 379 \; pd dsp 0;
+#X obj 638 293 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+1;
+#X connect 0 0 2 0;
+#X connect 2 0 1 0;
+#X connect 2 0 1 1;
+#X connect 2 0 5 0;
+#X connect 4 0 8 0;
+#X connect 8 0 5 1;
